@@ -1,3 +1,5 @@
+import { SubscribeBtn } from '../Buttons/SubscribeBtn';
+
 export const Card = () => {
   return (
     <div className="col-md-4 card-content">
@@ -12,12 +14,7 @@ export const Card = () => {
           <h6>
             Duração: 6 meses Carga horária: 450 horas Valor: R$ 98,00 (8x)
           </h6>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfZzkr-Uu-FbB0uYBQvGZ23_2M3NV40sF-ZmV5ZiT0eHqBnrQ/closedform"
-            className="btn btn-primary"
-          >
-            INSCREVA-SE
-          </a>
+          <SubscribeBtn />
         </div>
       </div>
     </div>

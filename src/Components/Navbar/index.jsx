@@ -11,7 +11,7 @@ export const Navbar = () => {
           </div>
           <ul className="nav-list">
             <li>
-              <a href="#!">INSCREVA-SE</a>
+              <a href="#!">inscreva-se</a>
             </li>
             <li>
               <a href="#!">Home</a>

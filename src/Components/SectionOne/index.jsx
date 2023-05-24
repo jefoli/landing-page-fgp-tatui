@@ -32,7 +32,7 @@ export const SectionOne = () => {
           <div className="carousel-item ">
             <img
               className="d-block w-100 carousel-set"
-              src="//www.fgp.edu.br/wp-content/uploads/2022/10/BANNER-VESTIBULAR.jpg"
+              src="../folder.jpg"
               alt="Terceiro Slide"
             />
           </div>
