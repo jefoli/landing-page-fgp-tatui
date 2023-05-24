@@ -1,6 +1,7 @@
 import { SubscribeBtn } from '../Buttons/SubscribeBtn';
+import P from 'prop-types';
 
-export const Card = () => {
+export const Card = ({ title }) => {
   return (
     <div className="col-md-4 card-content">
       <div className="card">
@@ -10,7 +11,7 @@ export const Card = () => {
           alt="Card image cap"
         />
         <div className="card-body">
-          <h5 className="card-title">ALFABETIZAÇÃO E LETRAMENTO</h5>
+          <h5 className="card-title">{title}</h5>
           <h6>
             Duração: 6 meses Carga horária: 450 horas Valor: R$ 98,00 (8x)
           </h6>
@@ -19,4 +20,8 @@ export const Card = () => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  title: P.string.isRequired,
 };

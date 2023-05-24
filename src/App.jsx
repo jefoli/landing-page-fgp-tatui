@@ -1,5 +1,5 @@
 import { Navbar } from './Components/Navbar';
-import { SectionOne } from './Components/Carrousel';
+import { Carrousel } from './Components/Carrousel';
 import { ExtensionCourses } from './Components/ExtensionCourses';
 import { PostGraduation } from './Components/PostGratuation';
 import { Footer } from './Components/Footer';
@@ -10,10 +10,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <SectionOne />
+      <Carrousel />
+      <History />
+
       <PostGraduation />
       <ExtensionCourses />
-      <History />
       <Address />
       <Footer />
     </>

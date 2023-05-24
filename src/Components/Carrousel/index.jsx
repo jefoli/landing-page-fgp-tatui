@@ -1,4 +1,4 @@
-export const SectionOne = () => {
+export const Carrousel = () => {
   return (
     <section className="section-container-black">
       <div
@@ -61,14 +61,6 @@ export const SectionOne = () => {
           ></span>
           <span className="sr-only">Próximo</span>
         </a>
-      </div>
-
-      <div className="wrapper1">
-        <img src="./image2.jpg" alt="" />
-        <div>
-          <h2>CURSOS</h2>
-          <p>CONHEÇA NOSSOS CURSOS</p>
-        </div>
       </div>
     </section>
   );
