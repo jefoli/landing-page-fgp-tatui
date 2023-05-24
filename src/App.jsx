@@ -10,7 +10,7 @@ import { Advertisement } from './Components/Advertisement';
 function App() {
   return (
     <>
-      <Advertisement />
+      <Advertisement useState="false" />
       <Navbar />
       <Carrousel />
       <History />

@@ -15,6 +15,10 @@ export default createGlobalStyle`
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 a {
@@ -22,7 +26,7 @@ a {
   letter-spacing: 2px;
 }
 
-body h1, body h2, body h3, h4, h5, h6 {
+h1, body h2, body h3, h4, h5, h6 {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 2px;
   text-align: center;
