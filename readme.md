@@ -7,6 +7,7 @@ Este é um projeto de landing page desenvolvido para a Faculdade FGP Tatuí, com
 - [Styled Components](https://styled-components.com/): Uma biblioteca para estilização de componentes usando CSS-in-JS.
 - [Vlibras](https://www.vlibras.gov.br/): Uma ferramenta de acessibilidade que traduz conteúdos digitais para Língua Brasileira de Sinais (Libras).
 - [Userway](https://userway.org/): Uma solução de acessibilidade que permite aos usuários personalizar a experiência de navegação.
+- [react-icons](https://react-icons.github.io/react-icons/): uma biblioteca que fornece um conjunto abrangente de ícones para uso em componentes React.
 
 **Atenção: Este projeto encontra-se em fase de desenvolvimento.**
 

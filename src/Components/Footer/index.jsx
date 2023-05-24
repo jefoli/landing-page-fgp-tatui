@@ -1,3 +1,5 @@
+import { BsFacebook } from 'react-icons/bs-facebook';
+
 export const Footer = () => {
   return (
     <footer id="footer" className="footer">
@@ -9,13 +11,11 @@ export const Footer = () => {
         <i className="fa-brands fa-linkedin social-icons"></i>
       </a>
 
-      <a
+      <BsFacebook
         href="https://www.facebook.com/fgptatui"
         target="_blank"
         rel="noreferrer"
-      >
-        <i className="fa-brands fa-square-facebook social-icons"></i>
-      </a>
+      />
 
       <a href="https://www.instagram.com/fgp_tatui/">
         <i className="fa-brands fa-square-instagram social-icons"></i>

@@ -9,10 +9,8 @@ export default createGlobalStyle`
     margin:0;
     padding: 0;
     outline:0;
-    line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   }
+
   body {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
