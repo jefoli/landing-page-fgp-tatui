@@ -1,7 +1,6 @@
-import './App.css';
 import { Navbar } from './Components/Navbar';
-import { SectionOne } from './Components/SectionOne';
-import { ExtensionCourses } from './Components/Section2';
+import { SectionOne } from './Components/Carrousel';
+import { ExtensionCourses } from './Components/ExtensionCourses';
 import { PostGraduation } from './Components/PostGratuation';
 import { Footer } from './Components/Footer';
 import { Address } from './Components/Address';
