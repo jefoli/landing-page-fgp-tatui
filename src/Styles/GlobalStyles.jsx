@@ -71,10 +71,7 @@ p {
   
 }
 
-.section-container-yellow{
-  min-height: 100vh;
-  background-color: rgb(245, 203, 17);
-}
+
 
 
 .section-container-black{

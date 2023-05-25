@@ -1,8 +1,9 @@
 import { Card } from '../Card';
+import { SectionContainer } from '../SectionContainer';
 
 export const PostGraduation = () => {
   return (
-    <section className="section-container-yellow">
+    <SectionContainer>
       <h1>PÓS-GRADUAÇÃO ON-LINE</h1>
       <h2>
         Nós oferecemos uma ampla gama de cursos para ajudá-lo a alcançar seus
@@ -26,6 +27,6 @@ export const PostGraduation = () => {
       <Card title="ensino da matemática na educação infantil e séries iniciais" />
       <Card title="orientação, supervisão e inspeção escolar" />
       <Card title="pedagogia da cooperação e metodologias colaborativas" />
-    </section>
+    </SectionContainer>
   );
 };
