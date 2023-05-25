@@ -1,5 +1,5 @@
 import { Card } from '../Card';
-
+import * as Styled from './styles';
 export const ExtensionCourses = () => {
   return (
     <section className="section-container-black-yellow">
@@ -10,15 +10,17 @@ export const ExtensionCourses = () => {
         todos desenvolvidos com base nas últimas tendências do mercado e
         ministrados por profissionais renomados em suas áreas de atuação.
       </h3>
-      <Card title="direito educacional" />
-      <Card title="autismo: um desafio para educadores" />
-      <Card title="cultura e arte afro-brasileira" />
-      <Card title="educação ambiental" />
-      <Card title="gestão e organização escolar" />
-      <Card title="base nacional comum curricular (BNCC)" />
-      <Card title="gestão de projetos educacionais" />
-      <Card title="princípios da educação básica (LBD)" />
-      <Card title="ferramentas e recursos educacionais" />
+      <Styled.Wrapper>
+        <Card title="direito educacional" />
+        <Card title="autismo: um desafio para educadores" />
+        <Card title="cultura e arte afro-brasileira" />
+        <Card title="educação ambiental" />
+        <Card title="gestão e organização escolar" />
+        <Card title="base nacional comum curricular (BNCC)" />
+        <Card title="gestão de projetos educacionais" />
+        <Card title="princípios da educação básica (LBD)" />
+        <Card title="ferramentas e recursos educacionais" />
+      </Styled.Wrapper>
     </section>
   );
 };

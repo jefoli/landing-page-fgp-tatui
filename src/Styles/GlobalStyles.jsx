@@ -65,15 +65,6 @@ p {
   margin-top: 15px;
 }
 
-.section-container-gray{
-  min-height: 100vh;
-  background-color: rgb(247, 247, 247);
-  
-}
-
-
-
-
 .section-container-black{
   width: 100%;
   min-height: 100vh;
@@ -143,16 +134,6 @@ color: rgb(2, 2, 2);
   background: #262626;
 }
 
-.card-content {
-  padding: 20px;
-  
-} 
-
-
-.card-title {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
-}
 
 .card-content a{
   background-color: rgb(0, 0, 0);

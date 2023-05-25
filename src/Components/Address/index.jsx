@@ -1,6 +1,8 @@
+import { SectionContainer } from '../SectionContainer';
+
 export const Address = () => {
   return (
-    <section className="section-container-yellow centralize">
+    <SectionContainer className="centralize">
       <h1>CONHEÇA NOSSO POLO</h1>
       <h5>Conheça nosso polo de apoio presencial em Tatuí - SP.</h5>
       <h5>
@@ -27,6 +29,6 @@ export const Address = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-    </section>
+    </SectionContainer>
   );
 };
