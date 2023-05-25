@@ -85,7 +85,7 @@ color: rgb(2, 2, 2);
   padding: 30px;
 }
 
-.section-container-black-yellow .btn {
+.section-container-black-yellow {
   color: #262626;
   background-color:rgb(245, 203, 17);
 }

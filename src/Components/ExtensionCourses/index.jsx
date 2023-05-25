@@ -11,7 +11,7 @@ export const ExtensionCourses = () => {
         ministrados por profissionais renomados em suas áreas de atuação.
       </h3>
       <Styled.Wrapper>
-        <Card title="direito educacional" />
+        <Card title="direito educacional" colorButton={'white'} />
         <Card title="autismo: um desafio para educadores" />
         <Card title="cultura e arte afro-brasileira" />
         <Card title="educação ambiental" />
