@@ -37,19 +37,6 @@ p {
 }
 
 
-.wrapper1 {
-  display: flex;
-  width: 50%;
-  justify-content: center;
-}
-
-.wrapper1 img{
-  display: flex;
-  max-width: 700px;
-  justify-content: center;
-  background-size: cover; /* redimensiona a imagem para preencher todo o corpo */
-}
-
 
 .centralize {
   display: flex;

@@ -1,3 +1,5 @@
+import { CustomLinks } from '../CustomLink';
+
 export const Navbar = () => {
   return (
     <section className="navigation">
@@ -10,6 +12,8 @@ export const Navbar = () => {
             </a>
           </div>
           <ul className="nav-list">
+            <CustomLinks to={'#'} name={'Inscreva-se'} />
+
             <li>
               <a href="#!">inscreva-se</a>
             </li>

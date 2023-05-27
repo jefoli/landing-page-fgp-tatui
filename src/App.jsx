@@ -6,10 +6,12 @@ import { Footer } from './Components/Footer';
 import { Address } from './Components/Address';
 import { History } from './Components/History';
 import { Advertisement } from './Components/Advertisement';
+import RoutesSistem from './Routes';
 
 function App() {
   return (
     <>
+      <RoutesSistem />
       <Advertisement useState="false" />
       <Navbar />
       <Carrousel />

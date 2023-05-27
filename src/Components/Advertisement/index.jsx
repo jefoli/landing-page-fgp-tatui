@@ -13,9 +13,9 @@ export const Advertisement = () => {
     <>
       {stateFolder && (
         <Styled.Folder>
-          <div id="popupContainer">
+          <div>
             <AiFillCloseCircle onClick={handleChange} />
-            <div id="popupContent">
+            <div>
               <img
                 src="src/assets/images/promotionalFolder.jpg"
                 alt="Imagem do Pop-up"
