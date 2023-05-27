@@ -13,7 +13,11 @@ export const Navbar = () => {
           </div>
           <ul className="nav-list">
             <CustomLinks to={'#'} name={'Inscreva-se'} />
-
+            <CustomLinks to={'#'} name={'Home'} />
+            <CustomLinks to={'#'} name={'Sobre a FPG'} />
+            <CustomLinks to={'#'} name={'pós-graduação on-line'} />
+            <CustomLinks to={'#'} name={'cursos de extensão'} />
+            <CustomLinks to={'#'} name={'Contato'} />
             <li>
               <a href="#!">inscreva-se</a>
             </li>
