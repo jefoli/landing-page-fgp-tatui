@@ -26,17 +26,15 @@ a {
   letter-spacing: 2px;
 }
 
-h1, body h2, body h3, h4, h5, h6 {
+h1, h2,  h3, h4, h5, h6 {
   font-family: 'Bebas Neue', cursive;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
 }
-
-
 
 .centralize {
   display: flex;
@@ -46,37 +44,12 @@ p {
 }
 
 
-.social-icons {
-  font-size: 30px;
-  color: rgb(245, 203, 17);
-  margin-top: 15px;
-}
-
-.section-container-black{
-  width: 100%;
-  min-height: 100vh;
-  background-color: rgb(0, 0, 0);
-  color: white;
-
-}
-
-.section-container-black-yellow{
-width: 100%;
-min-height: 100vh;
-background-color: rgb(0, 0, 0);
-color: rgb(2, 2, 2);
-}
 
 .section-container-black-yellow h1, .section-container-black-yellow h3 {
   color: rgb(255, 255, 255);
   padding: 30px;
 }
 
-.section-container-black-yellow {
-  color: #262626;
-  background-color:rgb(245, 203, 17);
-}
-  
 
 .section-container-image{
   width: 100%;
@@ -104,25 +77,9 @@ color: rgb(2, 2, 2);
   width: 1600px;
 }
 
-.footer {
-  background-color: black;
-  text-align: center;
-}
-
-.footer p {
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-  padding: 20px 0;
-}
 
 
-.navigation {
-  height: 70px;
-  background: #262626;
-}
-
-
-.card-content a{
+.card-content a {
   background-color: rgb(0, 0, 0);
   border: none;
 } 
@@ -151,9 +108,7 @@ color: rgb(2, 2, 2);
   margin: 0 auto;
 }
 
-nav {
-  float: right;
-}
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -208,7 +163,7 @@ nav ul li ul li a {
   width: 70px;
 }
 
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 810px) {
   .nav-mobile {
     display: block;
   }
@@ -235,7 +190,7 @@ nav ul li ul li a {
     position: static;
   }
 }
-@media screen and (min-width: 799px) {
+@media screen and (min-width: 810px) {
   .nav-list {
     display: block !important;
   }
@@ -279,30 +234,6 @@ nav ul li ul li a {
   transform: rotate(-45deg);
 }
 
-article {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-
-.carousel .card {
-  width: 300px;
-  margin: 0 auto;
-  height: 400px;
-  text-align: center;
-}
-
-.carousel .card img {
-  height: 250px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.carousel .card-body {
-  padding: 20px;
-}
-
 .icon-controls {
   text-align: center;
   margin-top: 10px;
@@ -315,10 +246,6 @@ article {
 .icon-controls i {
   color: gray;
   font-size: 30px
-}
-
-.map iframe{
-  max-width: 100%;
 }
 
   `}

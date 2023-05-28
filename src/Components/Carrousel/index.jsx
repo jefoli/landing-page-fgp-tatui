@@ -1,6 +1,8 @@
+import * as Styled from './styles';
+
 export const Carrousel = () => {
   return (
-    <section className="section-container-black">
+    <Styled.Wrapper>
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
@@ -18,22 +20,23 @@ export const Carrousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              className="d-block w-100 carousel-set"
+              className="d-block w-100"
               src="//www.fgp.edu.br/wp-content/uploads/2023/02/fgp.jpeg"
+              alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              className="d-block w-100 carousel-set"
-              src="//www.fgp.edu.br/wp-content/uploads/2022/10/BANNER-VESTIBULAR.jpg"
-              alt="Segundo Slide"
+              className="d-block w-100"
+              src="//www.fgp.edu.br/wp-content/uploads/2023/02/fgp.jpeg"
+              alt="First slide"
             />
           </div>
-          <div className="carousel-item ">
+          <div className="carousel-item">
             <img
-              className="d-block w-100 carousel-set"
-              src="../folder.jpg"
-              alt="Terceiro Slide"
+              className="d-block w-100"
+              src="//www.fgp.edu.br/wp-content/uploads/2023/02/fgp.jpeg"
+              alt="First slide"
             />
           </div>
         </div>
@@ -47,7 +50,7 @@ export const Carrousel = () => {
             className="carousel-control-prev-icon"
             aria-hidden="true"
           ></span>
-          <span className="sr-only">Anterior</span>
+          <span className="sr-only">Previous</span>
         </a>
         <a
           className="carousel-control-next"
@@ -59,9 +62,9 @@ export const Carrousel = () => {
             className="carousel-control-next-icon"
             aria-hidden="true"
           ></span>
-          <span className="sr-only">Próximo</span>
+          <span className="sr-only">Next</span>
         </a>
       </div>
-    </section>
+    </Styled.Wrapper>
   );
 };

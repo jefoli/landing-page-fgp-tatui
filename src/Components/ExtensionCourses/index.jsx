@@ -1,8 +1,9 @@
 import { Card } from '../Card';
+import { SectionContainer } from '../SectionContainer';
 import * as Styled from './styles';
 export const ExtensionCourses = () => {
   return (
-    <section className="section-container-black-yellow">
+    <SectionContainer color="black">
       <h1>CURSOS DE EXTENSÃO</h1>
       <h3>
         Descubra nossos cursos de extensão, criados para quem busca atualização
@@ -21,6 +22,6 @@ export const ExtensionCourses = () => {
         <Card title="princípios da educação básica (LBD)" />
         <Card title="ferramentas e recursos educacionais" />
       </Styled.Wrapper>
-    </section>
+    </SectionContainer>
   );
 };

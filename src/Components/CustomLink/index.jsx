@@ -1,11 +1,10 @@
-import { Link } from 'react-router-dom';
 import P from 'prop-types';
-
+import * as Styled from './styles';
 export const CustomLinks = ({ to, name }) => {
   return (
-    <li>
-      <Link to={to}>{name}</Link>
-    </li>
+    <Styled.Wrapper>
+      <a to={to}>{name}</a>
+    </Styled.Wrapper>
   );
 };
 

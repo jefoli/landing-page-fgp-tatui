@@ -4,9 +4,11 @@ import {
   FaLinkedin,
 } from 'react-icons/fa';
 
+import * as Styled from './styles';
+
 export const Footer = () => {
   return (
-    <footer id="footer" className="footer">
+    <Styled.Wrapper id="footer">
       <FaInstagramSquare
         className="social-icons"
         href="https://www.instagram.com/fgp_tatui/"
@@ -28,6 +30,6 @@ export const Footer = () => {
         © 2023 - FGP Tatuí | Desenvolvido por Jeferson Oliveira - HIFT
         Tecnologia
       </p>
-    </footer>
+    </Styled.Wrapper>
   );
 };
