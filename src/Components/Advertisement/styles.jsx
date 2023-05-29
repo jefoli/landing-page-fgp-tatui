@@ -25,5 +25,10 @@ ${({ theme }) => css`
     padding: 7px;
     color: #050505;
   }
+
+  & svg {
+  font-size: 20px;
+  }
+
   `}
 `;

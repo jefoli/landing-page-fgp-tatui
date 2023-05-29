@@ -1,6 +1,8 @@
 import { SubscribeBtn } from '../Buttons/SubscribeBtn';
 import P from 'prop-types';
 import * as Styled from './styles';
+import { FiChevronsRight } from 'react-icons/fi';
+
 export const Card = ({ title }) => {
   return (
     <Styled.Wrapper>
@@ -14,12 +16,16 @@ export const Card = ({ title }) => {
         <h5> Carga horária: 450 horas</h5>
         <h6> Valor: R$ 98,00 (8x)</h6>
       </div>
-      <SubscribeBtn color="#f5cb11" />
-      <span>
-        <p>
-          <a>saiba-mais</a>
-        </p>
-      </span>
+      <div className="texts">
+        <SubscribeBtn color="#f5cb11" />
+        <span>
+          <p>
+            <a>
+              saiba mais <FiChevronsRight />
+            </a>
+          </p>
+        </span>
+      </div>
     </Styled.Wrapper>
   );
 };

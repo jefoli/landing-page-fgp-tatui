@@ -3,7 +3,7 @@ import * as Styled from './styles';
 import { AiFillCloseCircle } from 'react-icons/ai';
 
 export const Advertisement = () => {
-  const [stateFolder, setCloseFolder] = useState(false);
+  const [stateFolder, setCloseFolder] = useState(true);
 
   function handleChange() {
     setCloseFolder(false);

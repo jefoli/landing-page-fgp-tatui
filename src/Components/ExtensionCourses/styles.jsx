@@ -8,4 +8,13 @@ export const Wrapper = styled.div`
   gap: 30px;
   max-width: 100%;
   padding: 20px;
+
+  .test {
+}
+`;
+
+export const Default = styled.div`
+  color: #000000;
+  padding: 20px;
+
 `;

@@ -10,9 +10,23 @@ export const Wrapper = styled.footer`
   padding: 20px 0; 
   }
 
+  svg {
+  font-size: 30px;
+  color: rgb(245, 203, 17);
+  }
+`;
+
+export const Contact = styled.div`
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+
   > svg {
   font-size: 30px;
   color: rgb(245, 203, 17);
-  margin-top: 15px;
+  transform: scaleX(-1);
   }
 `;
