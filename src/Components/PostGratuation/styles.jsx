@@ -9,3 +9,9 @@ export const Wrapper = styled.div`
   padding: 20px;
 
 `;
+
+export const Default = styled.div`
+  display: flex;
+  
+
+`;
