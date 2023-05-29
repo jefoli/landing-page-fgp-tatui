@@ -7,13 +7,16 @@ export const PostGraduation = () => {
     <SectionContainer color="#f5cb11">
       <Styled.Default>
         <div>
-          <h1>PÓS-GRADUAÇÃO ON-LINE</h1>
           <h2>
-            Nós oferecemos uma ampla gama de cursos para ajudá-lo a alcançar
-            seus objetivos
+            oferecemos uma ampla gama de cursos de formação e desenvolvimento
+            profissional para educadores (pós-graduação e extensão
+            universitária) no formato online para flexibilizar sua capacitação,
+            através de uma plataforma intuitiva, interativa e personalizada, a
+            qual permite que o estudante adaptar-se o conteúdo programado às
+            suas necessidades específicas
           </h2>
         </div>
-
+        <h1>CURSOS DE PÓS-GRADUAÇÃO</h1>
         <Styled.Wrapper>
           <Card title="atendimento educacional especializado" />
           <Card title="arte e cultura afro-brasileira na educação" />

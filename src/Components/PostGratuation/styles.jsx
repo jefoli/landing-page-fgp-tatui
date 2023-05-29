@@ -16,4 +16,6 @@ export const Default = styled.div`
   justify-content: center;
   padding: 20px;
   font-family: Rubik,Raleway,sans-serif!important;
+
+
 `;

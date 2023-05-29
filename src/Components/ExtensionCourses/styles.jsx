@@ -17,4 +17,13 @@ export const Default = styled.div`
   color: #000000;
   padding: 20px;
 
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.2;
+    z-index: 1;
+  }
+
 `;
