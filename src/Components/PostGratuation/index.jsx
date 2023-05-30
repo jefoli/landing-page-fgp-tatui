@@ -1,22 +1,22 @@
 import { Card } from '../Card';
 import { SectionContainer } from '../SectionContainer';
+import { SectionSubscribe } from '../SectionSubscribe';
 import * as Styled from './styles';
 
 export const PostGraduation = () => {
   return (
     <SectionContainer color="#f5cb11">
+      <SectionSubscribe />
       <Styled.Default>
-        <div>
-          <h2>
-            oferecemos uma ampla gama de cursos de formação e desenvolvimento
-            profissional para educadores (pós-graduação e extensão
-            universitária) no formato online para flexibilizar sua capacitação,
-            através de uma plataforma intuitiva, interativa e personalizada, a
-            qual permite que o estudante adaptar-se o conteúdo programado às
-            suas necessidades específicas
-          </h2>
-        </div>
+        <div></div>
         <h1>CURSOS DE PÓS-GRADUAÇÃO</h1>
+        <h2>
+          Cursos criados para quem busca atualização profissional e
+          enriquecimento pessoal. São diversas opções de temas, todos
+          desenvolvidos com base nas últimas tendências do mercado e ministrados
+          por profissionais renomados em suas áreas de atuação.
+        </h2>
+
         <Styled.Wrapper>
           <Card title="atendimento educacional especializado" />
           <Card title="arte e cultura afro-brasileira na educação" />

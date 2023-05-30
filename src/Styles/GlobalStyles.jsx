@@ -45,57 +45,11 @@ p {
 
 
 .section-container-image{
-  width: 100%;
   background-image: url('../src/assets/folder.jpg');
-  background-size: cover; /* redimensiona a imagem para preencher todo o corpo */
-  background-repeat: no-repeat; /* impede a repetição da imagem */
+  background-size: cover; 
+  background-repeat: no-repeat;
   height: auto;
 }
-
-.test12{
-  color: #ffffff;
-  background-color: #3f3f3ff6;
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-}
-
-.divflex{
-  display: flex;
-  padding: 20px;
-  
-  flex-direction: column;
-}
-
-.grid1{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.image-content {
-  width: 100%;
-  height: 100%;
-}
-
-.image-content img{
-  max-width: 1400px;
-  height: 400px;
-  overflow: hidden;
-}
-
-.carousel-set {
-  height: 467px;
-  width: 1600px;
-}
-
-
-
-.card-content a {
-  background-color: rgb(0, 0, 0);
-  border: none;
-} 
 
 .brand {
   display: flex;
@@ -110,12 +64,6 @@ p {
   padding-right: 30px;
 }
 
-
-.brand a,
-.brand a:visited {
-  color: #e6dfdf;
-  text-decoration: none;
-}
 
 .nav-container {
   max-width: 1200px;

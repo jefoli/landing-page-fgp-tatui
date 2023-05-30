@@ -1,11 +1,11 @@
 import { FaGraduationCap, FaUsers, FaLightbulb } from 'react-icons/fa';
+import * as Styled from './styles';
 
 export const History = () => {
   return (
     <section className="section-container-image">
-      <div className="test12 divflex">
+      <Styled.DefaultContainer className=" divflex">
         <h1>CONHEÇA NOSSA HISTÓRIA</h1>
-
         <div>
           <p>
             A FGP Polo Tatuí é uma referência no setor educacional. Desde 2012,
@@ -77,7 +77,7 @@ export const History = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Styled.DefaultContainer>
     </section>
   );
 };
