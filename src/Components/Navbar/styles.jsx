@@ -1,11 +1,21 @@
-import styled from 'styled-components';
+/* eslint-disable no-unused-vars */
+import styled, { css } from 'styled-components';
+
+const menuVisible = () => css`
+${({ theme }) => css`
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background: red;
+  `}
+`;
 
 export const Navigation = styled.section`
-  height: 70px;
+  height: 64px;
   background: #262626;
   display: flex;
   justify-content: space-around;
-
+  align-items: first baseline;
 
   > nav {
     display: flex;
@@ -38,4 +48,27 @@ nav :visited:hover {
   background: rgb(245, 203, 17);
   color: #ffffff;
 }
+`;
+
+export const Wrapper = styled.div`
+  ${({ theme, visible }) => css`
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+    background: white !important;
+    box-shadow: 0px 1px gray !important;
+
+    @media screen and (min-width: 810px) {
+      min-height: 100vh;
+      visibility: hidden;
+      opacity: 1;
+
+      ${visible && menuVisible(theme)}
+      display: flex;
+    }
+  `}
 `;

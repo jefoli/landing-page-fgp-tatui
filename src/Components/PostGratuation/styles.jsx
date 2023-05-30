@@ -14,7 +14,6 @@ export const Default = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
   font-family: Rubik,Raleway,sans-serif!important;
 
 

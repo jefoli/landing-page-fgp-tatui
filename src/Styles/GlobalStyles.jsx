@@ -36,14 +36,6 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.centralize {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-}
-
-
 .section-container-image{
   background-image: url('../src/assets/folder.jpg');
   background-size: cover; 

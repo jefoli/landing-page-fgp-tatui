@@ -6,7 +6,8 @@ export const DefaultContainer = styled.div`
   font-family: 'Roboto', sans-serif;
   width: 100%;
   padding: 20px;
-  
+  text-align: center;
+
 .grid1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

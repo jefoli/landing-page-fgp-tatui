@@ -36,7 +36,6 @@ export const History = () => {
             todo o mundo.
           </p>
         </div>
-
         <div>
           <h2>NOSSA MISSÃO</h2>
           <p>
@@ -54,7 +53,7 @@ export const History = () => {
               <FaGraduationCap />
               <h3>excelência acadêmica</h3>
               <p>
-                Promovendo a busca pela excelência acadêmica e preparando os
+                Promover a busca pela excelência acadêmica e preparando os
                 alunos para suas futuras carreiras.
               </p>
             </div>
@@ -62,7 +61,7 @@ export const History = () => {
               <FaUsers />
               <h3>diversidade e inclusão</h3>
               <p>
-                Valorizando a diversidade em todas as suas formas e criando um
+                Valorizar a diversidade em todas as suas formas e criando um
                 ambiente inclusivo para todos os alunos.
               </p>
             </div>
@@ -70,7 +69,7 @@ export const History = () => {
               <FaLightbulb />
               <h3>inovação e pesquisa</h3>
               <p>
-                Fomentando a inovação e a pesquisa em diversas áreas de
+                Fomentar a inovação e a pesquisa em diversas áreas de
                 conhecimento, incentivando a descoberta de novos conhecimentos e
                 avanços.
               </p>
