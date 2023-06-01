@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   gap: 20px;
   width: 100%;
   padding: 20px;
-
+  justify-content: center;
 `;
 
 export const Default = styled.div`

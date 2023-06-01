@@ -8,9 +8,7 @@ export const Wrapper = styled.div`
   gap: 30px;
   max-width: 100%;
   padding: 20px;
-
-  .test {
-}
+  justify-content: center;
 `;
 
 export const Default = styled.div`
