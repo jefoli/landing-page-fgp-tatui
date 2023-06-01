@@ -57,23 +57,9 @@ p {
 }
 
 
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-
-.nav-dropdown {
-  position: absolute;
-  display: none;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-}
-
 /* Mobile navigation */
 .nav-mobile {
   display: none;
-  position: absolute;
   top: 0;
   right: 0;
   background: #262626;
@@ -113,44 +99,6 @@ p {
     display: block !important;
   }
 }
-#nav-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
-}
-#nav-toggle span,
-#nav-toggle span:before,
-#nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: #ffffff;
-  position: absolute;
-  display: block;
-  content: "";
-  transition: all 300ms ease-in-out;
-}
-#nav-toggle span:before {
-  top: -10px;
-}
-#nav-toggle span:after {
-  bottom: -10px;
-}
-#nav-toggle.active span {
-  background-color: transparent;
-}
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
-}
-#nav-toggle.active span:after {
-  transform: rotate(-45deg);
-}
 
 .icon-controls {
   text-align: center;
@@ -159,11 +107,6 @@ p {
 
 .icon-controls a {
   margin: 0 5px;
-}
-
-.icon-controls i {
-  color: gray;
-  font-size: 30px
 }
 
   `}

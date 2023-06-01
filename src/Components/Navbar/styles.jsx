@@ -53,14 +53,14 @@ nav :visited:hover {
 export const Wrapper = styled.div`
   ${({ theme, visible }) => css`
     position: fixed;
-    z-index: 5;
+    z-index: 100;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     justify-content: center;
-    background: white !important;
-    box-shadow: 0px 1px gray !important;
+    background: white ;
+    box-shadow: 0px 1px gray;
 
     @media screen and (min-width: 810px) {
       min-height: 100vh;
