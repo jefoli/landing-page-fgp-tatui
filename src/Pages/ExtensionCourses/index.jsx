@@ -1,12 +1,12 @@
-import { Card } from '../Card';
-import { SectionContainer } from '../SectionContainer';
+import { Card } from '../../Components/Card';
+import { SectionContainer } from '../../Components/SectionContainer';
 import * as Styled from './styles';
 export const ExtensionCourses = () => {
   return (
     <SectionContainer color="#eeecec">
       <Styled.Default>
         <h1>CURSOS DE EXTENSÃO</h1>
-        <h3>
+        <div>
           <h2>Descubra nossos cursos de extensão</h2>
           <h3>
             criados para quem busca atualização profissional e enriquecimento
@@ -14,7 +14,7 @@ export const ExtensionCourses = () => {
             nas últimas tendências do mercado e ministrados por profissionais
             renomados em suas áreas de atuação
           </h3>
-        </h3>
+        </div>
       </Styled.Default>
 
       <Styled.Wrapper>

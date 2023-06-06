@@ -1,14 +1,15 @@
 import P from 'prop-types';
 import * as Styled from './styles';
+import { Link } from 'react-router-dom';
 export const CustomLinks = ({ to, name }) => {
   return (
     <Styled.Wrapper>
-      <a to={to}>{name}</a>
+      <Link to={to}>{name}</Link>
     </Styled.Wrapper>
   );
 };
 
 CustomLinks.propTypes = {
-  to: P.string.isRequired,
+  to: P.string,
   name: P.string,
 };

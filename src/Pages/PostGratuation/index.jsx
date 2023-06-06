@@ -1,6 +1,6 @@
-import { Card } from '../Card';
-import { SectionContainer } from '../SectionContainer';
-import { SectionSubscribe } from '../SectionSubscribe';
+import { Card } from '../../Components/Card';
+import { SectionContainer } from '../../Components/SectionContainer';
+import { SectionSubscribe } from '../../Components/SectionSubscribe';
 import * as Styled from './styles';
 
 export const PostGraduation = () => {
@@ -8,7 +8,6 @@ export const PostGraduation = () => {
     <SectionContainer color="#f5cb11">
       <SectionSubscribe />
       <Styled.Default>
-        <div></div>
         <h1>CURSOS DE PÓS-GRADUAÇÃO</h1>
         <h2>
           Cursos criados para quem busca atualização profissional e
