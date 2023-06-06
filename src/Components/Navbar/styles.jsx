@@ -34,8 +34,7 @@ export const Container = styled.div`
   display: flex;
   background: black;
   width: 100%;
-  justify-content: center;
-
+  height: 40px;
 `;
 
 export const Wrapper = styled.div`
