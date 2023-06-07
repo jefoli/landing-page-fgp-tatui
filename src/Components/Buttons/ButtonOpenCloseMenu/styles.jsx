@@ -15,7 +15,7 @@ export const Button = styled.div`
     pointer-events: ${visible ? 'none' : 'all'};
     align-items: center;
     border-radius: 4px;
-    background: #ffffff;
+    background: rgb(245, 203, 17);
 
     > svg {
       width:30px;

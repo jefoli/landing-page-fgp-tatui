@@ -14,20 +14,15 @@ ${({ theme }) => css`
   width: 100%;
   text-align: right;
   min-height: 100%;
+  
   & img {
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 20px;
-  }
-
-  & button {
-    background: #fbff008b;
-    border-radius: 500px;
-    padding: 7px;
-    color: #050505;
   }
 
   & svg {
   font-size: 20px;
+  color: ${theme.colors.primaryColor};
   }
 
   `}
