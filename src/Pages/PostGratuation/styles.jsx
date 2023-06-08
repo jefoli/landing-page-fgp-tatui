@@ -6,8 +6,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Default = styled.div`
+  margin-top: 40px;
   max-width: 100%;
   font-family: Rubik,Raleway,sans-serif!important;
   text-align: center;
-  min-height: 80vh;
+
 `;

@@ -8,17 +8,18 @@ export const Button = styled.div`
     right: ${theme.spacings.xsmall};
     width: ${theme.spacings.small};
     height: ${theme.spacings.small};
-    color: ${theme.colors.white};
+
     border: none;
     display: none;
     pointer-events: ${visible ? 'none' : 'all'};
     align-items: center;
     border-radius: ${theme.spacings.xxsmall};
-    background: ${theme.colors.backgroundGradientGray};
+    background: ${theme.colors.yellowColor};
 
     > svg {
       width:${theme.fonts.sizes.medium};
       height: ${theme.fonts.sizes.medium};
+      color: ${theme.colors.white};
     }
 
     @media ${theme.media.lteMedium} {

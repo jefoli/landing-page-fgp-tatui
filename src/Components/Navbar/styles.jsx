@@ -5,7 +5,7 @@ ${({ theme }) => css`
     display: block;
     visibility: visible;
     opacity: 1;
-    background: ${theme.colors.backgroundGradientGray};
+    background: #3f3f3ff6;
   `}
 `;
 
@@ -36,10 +36,11 @@ export const Default = styled.div`
 export const Container = styled.div`
   ${({ theme }) => css`
     display: flex;
-    background: ${theme.colors.backgroundGradientGray};
+    background:#676464;
     width: 100%;
-    height: 45px;
-
+    height: 50px;
+    padding: 0 40px;
+    border-bottom: 1px solid #ffff0020;
     @media ${theme.media.lteMedium} {
       display: block;
       text-align: center;
@@ -59,7 +60,7 @@ export const Wrapper = styled.div`
     width: 100%;
     justify-content: center;
     background: ${theme.colors.white};
-    box-shadow: 0px 1px ${theme.colors.mediumGray};
+
 
     @media ${theme.media.lteMedium} {
       min-height: 100vh;

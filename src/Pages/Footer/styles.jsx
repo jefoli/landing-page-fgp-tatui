@@ -1,32 +1,67 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.footer`
-  background-color: black;
-  text-align: center;
+  ${({ theme }) => css`
+    background-color: ${theme.colors.blackColor};
+    text-align: center;
+    width: 100%;
+    > p {
+      color: ${theme.colors.grayColor};
+      font-size: 15px;
+      padding: 20px 0;
+    }
 
-  > p {
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-  padding: 20px 0;
-  }
+    & svg {
+      font-size: 30px;
+      color: ${theme.colors.grayColor};
 
-  svg {
-  font-size: 30px;
-  color: rgb(245, 203, 17);
-  }
+    }
+  `}
 `;
 
 export const Contact = styled.div`
-  color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
+    ${({ theme }) => css`
+      color: ${theme.colors.whiteColor};
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
 
-  > svg {
-  font-size: 30px;
-  color: rgb(245, 203, 17);
-  transform: scaleX(-1);
+      @media ${theme.media.lteMedium} {
+        width: 100%;
+        min-height: 100%;
+        justify-content: space-around;
+      }
+    `}
+`;
+
+export const ContactBox = styled.div`
+  ${({ theme }) => css`
+      display: flex;
+      flex-direction: row;
+      > p {
+        padding: 20px;
+      }
+
+      @media ${theme.media.lteMedium} {
+        max-width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+  `}
+`;
+
+export const SocialMediaIconsContainer = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+  @media ${theme.media.lteMedium} {
+    max-width: 100%;
+    justify-content: space-around;
   }
+
+  `}
 `;

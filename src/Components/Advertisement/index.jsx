@@ -17,7 +17,7 @@ export const Advertisement = () => {
             <AiFillCloseCircle onClick={handleChange} />
             <div>
               <img
-                src="src/assets/images/promotionalFolder.jpg"
+                src="./src/assets/images/promotionalFolder.jpg"
                 alt="Imagem do Pop-up"
               />
             </div>

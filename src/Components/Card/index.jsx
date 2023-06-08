@@ -13,14 +13,14 @@ export const Card = ({ title }) => {
           <p> Carga horária: 450 horas</p>
           <p> Valor: R$ 98,00 (8x)</p>
         </div>
-        <div className="texts">
+        <Styled.TextContent>
           <SubscribeBtn color="#f5cb11" />
           <span>
             <a>
               saiba mais <FiChevronsRight />
             </a>
           </span>
-        </div>
+        </Styled.TextContent>
       </Styled.Wrapper>
     </>
   );

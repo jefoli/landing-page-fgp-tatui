@@ -1,4 +1,6 @@
 import { FaGraduationCap, FaUsers, FaLightbulb } from 'react-icons/fa';
+import { TbTargetArrow } from 'react-icons/tb';
+
 import * as Styled from './styles';
 
 export const History = () => {
@@ -36,46 +38,52 @@ export const History = () => {
             todo o mundo.
           </p>
         </div>
-        <div>
-          <h2>NOSSA MISSÃO</h2>
-          <p>
-            Nossa missão é desenvolver competências e habilidades, formar e
-            orientar profissionais alinhados com as exigências do cotidiano,
-            promovendo o desenvolvimento contínuo e a transformação da sociedade
-            por meio da assimilação de novos conhecimentos.
-          </p>
-        </div>
+        <h2>NOSSA MISSÃO</h2>
+        <Styled.MissionBox>
+          <Styled.BoxContent>
+            <Styled.BoxStyle>
+              <TbTargetArrow className="teste12" />
+              <h3>Formação de Excelência para a Transformação da Sociedade</h3>
+              <p>
+                Desenvolver competências e habilidades, formar e orientar
+                profissionais alinhados com as exigências do cotidiano,
+                promovendo o desenvolvimento contínuo e a transformação da
+                sociedade.
+              </p>
+            </Styled.BoxStyle>
+          </Styled.BoxContent>
+        </Styled.MissionBox>
 
-        <div>
-          <h2>valores</h2>
-          <div className="grid1">
-            <div>
-              <FaGraduationCap />
-              <h3>excelência acadêmica</h3>
-              <p>
-                Promover a busca pela excelência acadêmica e preparando os
-                alunos para suas futuras carreiras.
-              </p>
-            </div>
-            <div>
-              <FaUsers />
-              <h3>diversidade e inclusão</h3>
-              <p>
-                Valorizar a diversidade em todas as suas formas e criando um
-                ambiente inclusivo para todos os alunos.
-              </p>
-            </div>
-            <div>
-              <FaLightbulb />
-              <h3>inovação e pesquisa</h3>
-              <p>
-                Fomentar a inovação e a pesquisa em diversas áreas de
-                conhecimento, incentivando a descoberta de novos conhecimentos e
-                avanços.
-              </p>
-            </div>
-          </div>
-        </div>
+        <h2>conheça nossos pilares</h2>
+        <Styled.BoxContent>
+          <Styled.BoxStyle>
+            <FaGraduationCap className="teste12" />
+            <h3>excelência acadêmica</h3>
+            <p>
+              Promover a busca pela excelência acadêmica e preparando os alunos
+              para suas futuras carreiras.
+            </p>
+          </Styled.BoxStyle>
+
+          <Styled.BoxStyle>
+            <FaUsers className="teste12" />
+            <h3>diversidade e inclusão</h3>
+            <p>
+              Valorizar a diversidade em todas as suas formas e criando um
+              ambiente inclusivo para todos os alunos.
+            </p>
+          </Styled.BoxStyle>
+
+          <Styled.BoxStyle>
+            <FaLightbulb className="teste12" />
+            <h3>inovação e pesquisa</h3>
+            <p>
+              Fomentar a inovação e a pesquisa em diversas áreas de
+              conhecimento, incentivando a descoberta de novos conhecimentos e
+              avanços.
+            </p>
+          </Styled.BoxStyle>
+        </Styled.BoxContent>
       </Styled.DefaultContainer>
     </section>
   );
