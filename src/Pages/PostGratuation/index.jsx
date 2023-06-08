@@ -1,7 +1,8 @@
-import { Card } from '../../Components/Card';
 import { SectionContainer } from '../../Components/SectionContainer';
 import { SectionSubscribe } from '../../Components/SectionSubscribe';
+import { Carousel } from '../../Components/Carousel';
 import * as Styled from './styles';
+import { postGradutationTitles } from './courses-postgradutation';
 
 export const PostGraduation = () => {
   return (
@@ -17,23 +18,7 @@ export const PostGraduation = () => {
         </h2>
 
         <Styled.Wrapper>
-          <Card title="atendimento educacional especializado" />
-          <Card title="arte e cultura afro-brasileira na educação" />
-          <Card title="arte da educação" />
-          <Card title="direito educacional" />
-          <Card title="educação musical e ensino da arte" />
-          <Card title="educação positiva" />
-          <Card title="educação especial com ênfase em múltiplas deficiências" />
-          <Card title="educação especial com ênfase em em TGD e superdotação" />
-          <Card title="ensino da matemática na educação infantil e séries iniciais" />
-          <Card title="neurociências e aprendizagem" />
-          <Card title="neuropsicopedagogia" />
-          <Card title="pedagogia humanísticas" />
-          <Card title="psicopedagogia institucional" />
-          <Card title="formação para educação a distância" />
-          <Card title="ludopedagogia" />
-          <Card title="orientação, supervisão e inspeção escolar" />
-          <Card title="pedagogia da cooperação e metodologias colaborativas" />
+          <Carousel cardTitles={postGradutationTitles} />
         </Styled.Wrapper>
       </Styled.Default>
     </SectionContainer>

@@ -13,8 +13,6 @@ export const DefaultContainer = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 10px
 }
-
-
 `;

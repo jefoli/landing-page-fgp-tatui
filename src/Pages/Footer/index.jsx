@@ -39,6 +39,7 @@ export const Footer = () => {
         className="social-icons"
         href="https://www.instagram.com/fgp_tatui/"
       />
+
       <IoLogoYoutube
         className="social-icons"
         href="https://www.instagram.com/fgp_tatui/"

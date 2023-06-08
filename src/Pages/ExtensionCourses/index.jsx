@@ -1,32 +1,24 @@
-import { Card } from '../../Components/Card';
+import { Carousel } from '../../Components/Carousel';
 import { SectionContainer } from '../../Components/SectionContainer';
+import { ExtensionCardTitles } from './extensionTitles';
 import * as Styled from './styles';
+
 export const ExtensionCourses = () => {
   return (
     <SectionContainer color="#eeecec">
       <Styled.Default>
         <h1>CURSOS DE EXTENSÃO</h1>
         <div>
-          <h2>Descubra nossos cursos de extensão</h2>
+          <h3>Descubra nossos cursos de extensão</h3>
           <h3>
             criados para quem busca atualização profissional e enriquecimento
             pessoal. São diversas opções de temas, todos desenvolvidos com base
-            nas últimas tendências do mercado e ministrados por profissionais
-            renomados em suas áreas de atuação
+            nas últimas tendências do mercado
           </h3>
         </div>
       </Styled.Default>
-
       <Styled.Wrapper>
-        <Card title="direito educacional" colorButton={'white'} />
-        <Card title="autismo: um desafio para educadores" />
-        <Card title="cultura e arte afro-brasileira" />
-        <Card title="educação ambiental" />
-        <Card title="gestão e organização escolar" />
-        <Card title="base nacional comum curricular (BNCC)" />
-        <Card title="gestão de projetos educacionais" />
-        <Card title="princípios da educação básica (LBD)" />
-        <Card title="ferramentas e recursos educacionais" />
+        <Carousel cardTitles={ExtensionCardTitles} />
       </Styled.Wrapper>
     </SectionContainer>
   );

@@ -22,19 +22,24 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier', 'react-hooks'],
+  plugins: ['react', 'react-hooks'],
   settings: {
     react: {
       version: 'detect',
     },
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
     'prettier/prettier': [
       'error',
       {
         endOfLine: 'auto',
       },
     ],
+    'react/react-in-jsx-scope': 'off',
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'object-curly-spacing': ['error', 'always'],
+    'arrow-parens': ['error', 'always'],
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
   },
 };

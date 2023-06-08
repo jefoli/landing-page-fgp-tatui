@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  color: #ffffff;
+  ${({ theme }) => css`
+  color: ${theme.colors.whiteColor};
   width: 100%;
   font-size: 24px;
   display: flex;
@@ -13,9 +14,11 @@ export const Wrapper = styled.div`
     color: #ffffff;
     }
 
-
   > a {
     text-decoration: none;
     color: #ffffff;
     }
+
+  `}
+
 `;
