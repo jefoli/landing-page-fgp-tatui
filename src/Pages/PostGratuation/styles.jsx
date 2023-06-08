@@ -9,4 +9,5 @@ export const Default = styled.div`
   max-width: 100%;
   font-family: Rubik,Raleway,sans-serif!important;
   text-align: center;
+  min-height: 80vh;
 `;

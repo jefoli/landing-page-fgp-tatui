@@ -7,12 +7,7 @@ export const Address = () => {
     <SectionContainer className="centralize" color="#f5cb11">
       <Styled.TextContent>
         <h1>CONHEÇA NOSSO POLO</h1>
-        <h4>Conheça nosso polo de apoio presencial em Tatuí - SP.</h4>
-        <h4>
-          A EAD FGP é responsável por levar aos alunos uma metodologia intuitiva
-          e professores qualificados através de unidades espalhadas em todas as
-          regiões do Brasil.
-        </h4>
+        <p>Conheça nosso polo de apoio presencial em Tatuí - SP.</p>
       </Styled.TextContent>
 
       <Styled.Wrapper>

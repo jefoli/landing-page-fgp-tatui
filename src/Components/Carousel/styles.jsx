@@ -34,7 +34,7 @@ export const ButtonMenu = styled.div`
 
 export const Button = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colors.grayColor};
+    color: ${theme.colors.yellowColor};
     border-radius: 100%;
     cursor: pointer;
     font-size: 30px;

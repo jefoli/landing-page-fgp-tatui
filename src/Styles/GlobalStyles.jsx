@@ -13,7 +13,7 @@ export default createGlobalStyle`
 
   body {
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
 
   html {
@@ -30,16 +30,19 @@ a {
 
 h1, h2,  h3, h4, h5, h6 {
   font-family: 'Bebas Neue', cursive;
-  letter-spacing: 0.5px;
+
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: signika;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 .section-container-image{
   background-image: url('../src/assets/folder.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   height: auto;
 }

@@ -6,17 +6,16 @@ import { postGradutationTitles } from './courses-postgradutation';
 
 export const PostGraduation = () => {
   return (
-    <SectionContainer color="#f5cb11">
-      <SectionSubscribe />
+    <SectionContainer color="#edece7">
       <Styled.Default>
+        <SectionSubscribe />
         <h1>CURSOS DE PÓS-GRADUAÇÃO</h1>
-        <h2>
-          Cursos criados para quem busca atualização profissional e
-          enriquecimento pessoal. São diversas opções de temas, todos
-          desenvolvidos com base nas últimas tendências do mercado e ministrados
-          por profissionais renomados em suas áreas de atuação.
-        </h2>
-
+        <p>
+          Cursos desenvolvidos no formato online para flexibilizar sua
+          capacitação, através de uma plataforma intuitiva, interativa e
+          personalizada, a qual permite que o estudante adaptar-se o conteúdo
+          programado às suas necessidades específicas
+        </p>
         <Styled.Wrapper>
           <Carousel cardTitles={postGradutationTitles} />
         </Styled.Wrapper>

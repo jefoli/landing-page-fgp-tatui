@@ -8,14 +8,10 @@ export const ExtensionCourses = () => {
     <SectionContainer color="#eeecec">
       <Styled.Default>
         <h1>CURSOS DE EXTENSÃO</h1>
-        <div>
-          <h3>Descubra nossos cursos de extensão</h3>
-          <h3>
-            criados para quem busca atualização profissional e enriquecimento
-            pessoal. São diversas opções de temas, todos desenvolvidos com base
-            nas últimas tendências do mercado
-          </h3>
-        </div>
+        <p>
+          Cursos desenvolvidos para educadores que buscam aprimorar suas
+          habilidades de forma ágil, eficiente e com conclusão em tempo reduzido
+        </p>
       </Styled.Default>
       <Styled.Wrapper>
         <Carousel cardTitles={ExtensionCardTitles} />

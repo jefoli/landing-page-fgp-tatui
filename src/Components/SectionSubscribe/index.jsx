@@ -1,10 +1,18 @@
-import { SubscribeBtn } from '../Buttons/SubscribeBtn';
+//import { SubscribeBtn } from '../Buttons/SubscribeBtn';
 import * as Styled from './styles';
 export const SectionSubscribe = () => {
   return (
     <>
-      <Styled.Default className="section-container-image2">
-        <Styled.Wrapper>
+      <Styled.Default>
+        {/*<Styled.Wrapper>
+          <div>
+            <h2>Faculdade FGP Tatuí</h2>
+            <h4>
+              A EAD FGP é responsável por levar aos alunos uma metodologia
+              intuitiva e professores qualificados através de unidades
+              espalhadas em todas as regiões do Brasil.
+            </h4>
+          </div>
           <h2>Inscreva-se agora e garanta o seu futuro!</h2>
           <p>
             oferecemos uma ampla gama de cursos de formação e desenvolvimento
@@ -16,7 +24,7 @@ export const SectionSubscribe = () => {
           </p>
           <p>Não perca esta oportunidade única. Seu futuro não pode esperar!</p>
         </Styled.Wrapper>
-        <SubscribeBtn color="#f5cb11" />
+            <SubscribeBtn color="#f5cb11" />*/}
       </Styled.Default>
     </>
   );
