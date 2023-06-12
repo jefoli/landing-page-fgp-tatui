@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     background-color:  #d2d2d2;
     margin-left: 10px;
     width: 350px;
-
+    touch-action: pan-y;
     & :hover {
       transform: scale(1.1);
       transition: all 300ms ease-in-out;

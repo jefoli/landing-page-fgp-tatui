@@ -45,7 +45,7 @@ export const Button = styled.div`
 export const Slide = styled.div`
   flex: 0 0 33.33%;
   transition: transform 0.3s ease-in-out;
-
+  touch-action: pan-y;
   &:hover {
     transform: scale(2.0);
   }
@@ -53,8 +53,9 @@ export const Slide = styled.div`
   @media (max-width: 768px) {
 
     ${(props) =>
-    props.enableTouch &&
+      props.enableTouch &&
       css`
+      touch-action: pan-y;
     flex: 0 0 100%;
     `}
   };
