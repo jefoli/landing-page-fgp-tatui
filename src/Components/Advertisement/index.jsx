@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import * as Styled from './styles';
 import { AiFillCloseCircle } from 'react-icons/ai';
-
+import imgFolder from './promotionalFolder.jpg';
 export const Advertisement = () => {
   const [stateFolder, setCloseFolder] = useState(true);
 
@@ -16,10 +16,7 @@ export const Advertisement = () => {
           <div>
             <AiFillCloseCircle onClick={handleChange} />
             <div>
-              <img
-                src="./src/assets/images/promotionalFolder.jpg"
-                alt="Imagem do Pop-up"
-              />
+              <img src={imgFolder} alt="Imagem do Pop-up" />
             </div>
           </div>
         </Styled.Folder>
