@@ -6,7 +6,7 @@ export const theme = {
     mediumGrayColor: '#c3c3c3',
     darkGrayColor: '#545454',
     GrayMetalicColor: '#747171',
-    blackColor: '#111',
+    blackColor: '#262626',
     backgroundEffectBlur: '#0e0d0d',
     boxColor: '#cf9900',
     backgroundGradientGray: 'linear-gradient(to left, #afafaf, #545454)',

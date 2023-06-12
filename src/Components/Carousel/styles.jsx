@@ -51,6 +51,11 @@ export const Slide = styled.div`
   }
 
   @media (max-width: 768px) {
+
+    ${(props) =>
+    props.enableTouch &&
+      css`
     flex: 0 0 100%;
-  }
+    `}
+  };
 `;

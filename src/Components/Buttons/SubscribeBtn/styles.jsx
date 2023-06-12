@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
 
 export const Button = styled.button`
   ${({ theme }) => css`
-  color: #262626;
+  color: ${theme.colors.blackColor};
   background-color: ${(props) => props.color};
   border-radius: 10px;
   padding: 8px;

@@ -1,11 +1,23 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card } from '../Card';
 import { FaChevronCircleLeft, FaChevronCircleRight } from 'react-icons/fa';
 import * as Styled from './styles';
 
 export const Carousel = ({ cardTitles }) => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [enableTouch, setEnableTouch] = useState(false);
+
+  useEffect(() => {
+    const handleTouch = () => {
+      setEnableTouch(true);
+      window.removeEventListener('touchstart', handleTouch);
+    };
+
+    return () => {
+      window.removeEventListener('touchstart', handleTouch);
+    };
+  }, []);
 
   const handleNextSlide = () => {
     setActiveIndex((prevIndex) =>
@@ -26,6 +38,7 @@ export const Carousel = ({ cardTitles }) => {
           key={index}
           className={index === activeIndex ? 'active' : ''}
           style={{ transform: `translateX(-${activeIndex * 50}%)` }}
+          enableTouch={enableTouch}
         >
           <Card title={title} />
         </Styled.Slide>
