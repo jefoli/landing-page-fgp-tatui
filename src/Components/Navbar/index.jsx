@@ -13,7 +13,6 @@ export const Navbar = () => {
       <ButtonOpenCloseMenu visible={visible} onClick={() => setVisible(true)} />
 
       <Styled.Wrapper visible={visible} onClick={() => setVisible(false)}>
-        {' '}
         <Styled.Container>
           <MenuLink />
         </Styled.Container>

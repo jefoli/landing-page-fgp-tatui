@@ -8,13 +8,13 @@ export const Wrapper = styled.div`
     font-size: 18px;
     height: 320px;
     text-align: center;
-    background-color: white;
+    background-color: ${theme.colors.whiteColor};
     border-radius: 15px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-    background-color:  #d2d2d2;
+    background-color:  ${theme.colors.mediumGrayColor};
     margin-left: 10px;
     width: 350px;
-    touch-action: pan-y;
+
     & :hover {
       transform: scale(1.1);
       transition: all 300ms ease-in-out;

@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 export const Default = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.whiteColor};
-    background-color: #f1f1f1;
+    background-color: ${theme.colors.lowGrayColor};
     text-align: center;
     padding: 20px;
   `}

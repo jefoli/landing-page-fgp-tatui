@@ -3,6 +3,7 @@ export const theme = {
     yellowColor: 'rgb(245, 203, 17)',
     whiteColor: '#FFFFFF',
     grayColor: '#afafaf',
+    lowGrayColor: '#f1f1f1',
     mediumGrayColor: '#c3c3c3',
     darkGrayColor: '#545454',
     GrayMetalicColor: '#747171',

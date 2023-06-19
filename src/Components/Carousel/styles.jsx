@@ -5,7 +5,7 @@ export const CarouselWrapper = styled.div`
   overflow: hidden;
   height: 100%;
   position: relative;
-  scroll-snap-type: x mandatory;
+
   @media (max-width: 768px) {
     flex-direction: flex;
     align-items: center;
@@ -49,13 +49,4 @@ export const Slide = styled.div`
   &:hover {
     transform: scale(2.0);
   }
-
-  @media (max-width: 768px) {
-    scroll-snap-type: x mandatory;
-    ${(props) =>
-    props.enableTouch &&
-      css`scroll-snap-type: x mandatory;
-      flex: 0 0 100%;
-    `}
-  };
 `;

@@ -10,13 +10,13 @@ export const Wrapper = styled.div`
   text-align: center;
 
   &:hover, &:visited:hover {
-    background: rgb(245, 203, 17);
-    color: #ffffff;
+    background: {theme: .colors.yellowColor};
+    color: ${theme.colors.whiteColor};
     }
 
   > a {
     text-decoration: none;
-    color: #ffffff;
+    color:${theme.colors.whiteColor};
     }
 
   `}

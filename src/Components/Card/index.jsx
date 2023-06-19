@@ -7,8 +7,8 @@ export const Card = ({ title }) => {
   return (
     <>
       <Styled.Wrapper>
-        <div className="card-body">
-          <h4 className="card-title">{title}</h4>
+        <div>
+          <h4>{title}</h4>
           <p>Duração: 6 meses </p>
           <p> Carga horária: 450 horas</p>
           <p> Valor: R$ 98,00 (8x)</p>

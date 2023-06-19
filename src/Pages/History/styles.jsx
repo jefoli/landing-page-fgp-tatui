@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const DefaultContainer = styled.div`
   ${({ theme }) => css`
-  color: #ffffff;
+  color: ${theme.colors.whiteColor};
   background-color: #3f3f3ff6;
   font-family: 'Roboto', sans-serif;
   width: 100%;
