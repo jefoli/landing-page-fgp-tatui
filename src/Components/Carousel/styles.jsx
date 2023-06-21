@@ -39,6 +39,7 @@ export const Button = styled.div`
     cursor: pointer;
     font-size: ${theme.fonts.sizes.large};
     padding: 0 ${theme.fonts.sizes.xlarge};
+
   `}
 `;
 

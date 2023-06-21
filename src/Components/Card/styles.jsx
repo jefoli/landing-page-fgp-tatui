@@ -7,15 +7,21 @@ export const Wrapper = styled.div`
     justify-content:center;
     width: 100%;
     font-size: ${theme.fonts.sizes.small};
-    height: 350px;
+    height: 400px;
     text-align: center;
     background-color: ${theme.colors.whiteColor};
     border-radius: ${theme.fonts.sizes.medium};
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
     background-color:  ${theme.colors.mediumGrayColor};
     margin-left: ${theme.fonts.sizes.xxsmall};
-    width: 350px;
+    width: 340px;
     padding: 30px 20px;
+    margin: 0 4px;
+
+    @media (max-width: 768px) {
+      min-height: 100%;
+      max-width: 100%;
+    }
   `}
 `;
 

@@ -19,9 +19,6 @@ export default createGlobalStyle`
     html {
       scroll-behavior: smooth;
       font-size: 62.5%;
-      scroll-snap-type: y mandatory;
-      overflow-y: scroll;
-
     }
 
     a {
