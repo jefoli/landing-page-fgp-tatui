@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
     margin: 0 5px;
 
     @media (max-width: 768px) {
-      min-height: 100%;
+      min-height: 500px;
       max-width: 100%;
     }
   `}
