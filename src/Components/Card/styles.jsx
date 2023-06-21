@@ -19,8 +19,8 @@ export const Wrapper = styled.div`
     margin: 0 4px;
 
     @media (max-width: 768px) {
-      min-height: 100%;
-      max-width: 100%;
+      min-height: 500px;
+      width: 100%;
     }
   `}
 `;

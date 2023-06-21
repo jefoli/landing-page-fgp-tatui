@@ -51,10 +51,10 @@ export const Footer = () => {
           rel="noreferrer"
         />
       </Styled.SocialMediaIconsContainer>
-      <p>
+      <Styled.Creator>
         © 2023 - FGP Tatuí | Desenvolvido por Jeferson Oliveira - HIFT
         Tecnologia
-      </p>
+      </Styled.Creator>
     </Styled.Wrapper>
   );
 };
