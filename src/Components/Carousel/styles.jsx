@@ -37,8 +37,8 @@ export const Button = styled.div`
     color: ${theme.colors.yellowColor};
     border-radius: 100%;
     cursor: pointer;
-    font-size: 30px;
-    padding: 0 30px;
+    font-size: ${theme.fonts.sizes.large};
+    padding: 0 ${theme.fonts.sizes.xlarge};
   `}
 `;
 
@@ -46,7 +46,4 @@ export const Slide = styled.div`
   flex: 0 0 33.33%;
   transition: transform 0.3s ease-in-out;
   scroll-snap-type: x mandatory;
-  &:hover {
-    transform: scale(2.0);
-  }
 `;

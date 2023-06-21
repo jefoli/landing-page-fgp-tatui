@@ -5,16 +5,16 @@ export const Wrapper = styled.footer`
     background-color: ${theme.colors.blackColor};
     text-align: center;
     width: 100%;
+
     > p {
       color: ${theme.colors.grayColor};
-      font-size: 15px;
-      padding: 20px 0;
+      font-size: ${theme.fonts.sizes.medium};
+      padding: ${theme.spacings.medium} 0;
     }
 
     & svg {
-      font-size: 30px;
-      color: ${theme.colors.grayColor};
-
+      font-size: ${theme.fonts.sizes.xlarge};
+      color: ${theme.colors.yellowColor};
     }
   `}
 `;
@@ -24,7 +24,7 @@ export const Contact = styled.div`
       color: ${theme.colors.whiteColor};
       display: flex;
       flex-direction: column;
-      padding: 20px;
+    padding: ${theme.spacings.small};
       align-items: center;
       justify-content: center;
 
@@ -40,8 +40,9 @@ export const ContactBox = styled.div`
   ${({ theme }) => css`
       display: flex;
       flex-direction: row;
+
       > p {
-        padding: 20px;
+        padding: ${theme.spacings.medium};
       }
 
       @media ${theme.media.lteMedium} {
@@ -58,10 +59,9 @@ export const SocialMediaIconsContainer = styled.div`
     width: 100%;
     justify-content: space-evenly;
 
-  @media ${theme.media.lteMedium} {
-    max-width: 100%;
-    justify-content: space-around;
-  }
-
+    @media ${theme.media.lteMedium} {
+      max-width: 100%;
+      justify-content: space-around;
+    }
   `}
 `;

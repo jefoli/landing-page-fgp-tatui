@@ -8,19 +8,17 @@ export const Card = ({ title }) => {
     <>
       <Styled.Wrapper>
         <div>
-          <h4>{title}</h4>
+          <h3>{title}</h3>
           <p>Duração: 6 meses </p>
           <p> Carga horária: 450 horas</p>
           <p> Valor: R$ 98,00 (8x)</p>
         </div>
         <Styled.TextContent>
           <SubscribeBtn color="#f5cb11" />
-          <span>
-            <a>
-              saiba mais <FiChevronsRight />
-            </a>
-          </span>
         </Styled.TextContent>
+        <Styled.showMoreBtn>
+          saiba mais <FiChevronsRight />
+        </Styled.showMoreBtn>
       </Styled.Wrapper>
     </>
   );

@@ -1,38 +1,42 @@
-/* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     width: 100%;
-    font-size: 18px;
-    height: 320px;
+    font-size: ${theme.fonts.sizes.small};
+    height: 350px;
     text-align: center;
     background-color: ${theme.colors.whiteColor};
-    border-radius: 15px;
+    border-radius: ${theme.fonts.sizes.medium};
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
     background-color:  ${theme.colors.mediumGrayColor};
-    margin-left: 10px;
+    margin-left: ${theme.fonts.sizes.xxsmall};
     width: 350px;
-
-    & :hover {
-      transform: scale(1.1);
-      transition: all 300ms ease-in-out;
-    }
+    padding: 30px 20px;
   `}
 `;
 
 export const TextContent = styled.div`
-${({ theme }) => css`
+  ${({ theme }) => css`
+    padding-top: ${theme.spacings.huge};
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
 
-    & a {
-      color: #747171;
-      font-family: 'Rubik', sans-serif;
-      cursor: pointer;
+    & :hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
     }
+  `}
+`;
+
+export const showMoreBtn = styled.a`
+  ${({ theme }) => css`
+    font-family: ${theme.fonts.family.secondary};
+    cursor: pointer;
   `}
 `;

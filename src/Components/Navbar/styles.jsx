@@ -1,11 +1,12 @@
 import styled, { css } from 'styled-components';
 
 const menuVisible = () => css`
+//menu-mobile:
 ${({ theme }) => css`
     display: block;
     visibility: visible;
     opacity: 1;
-    background: #3f3f3ff6;
+    background: ${theme.colors.backgroundMenuMobile};
   `}
 `;
 
@@ -21,6 +22,7 @@ export const Default = styled.div`
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+    font-family: ${theme.fonts.family.primary};
 
     &.scroll {
       opacity: 0;
@@ -36,11 +38,12 @@ export const Default = styled.div`
 export const Container = styled.div`
   ${({ theme }) => css`
     display: flex;
-    background:#676464;
+    background: ${theme.colors.backgroundMenuDesktop};
     width: 100%;
-    height: 50px;
-    padding: 0 40px;
+    height: ${theme.fonts.sizes.huge};
+    padding: 0 ${theme.fonts.sizes.xsmall};
     border-bottom: 1px solid #ffff0020;
+
     @media ${theme.media.lteMedium} {
       display: block;
       text-align: center;

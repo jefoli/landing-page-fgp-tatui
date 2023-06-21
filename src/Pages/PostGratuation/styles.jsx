@@ -1,14 +1,16 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 20px;
-  justify-content: center;
+  ${({ theme }) => css`
+    padding: ${theme.spacings.small};
+    justify-content: center;
+  `}
 `;
 
 export const Default = styled.div`
-  margin-top: 40px;
-  max-width: 100%;
-  font-family: Rubik,Raleway,sans-serif!important;
-  text-align: center;
-
+  ${({ theme }) => css`
+    margin-top: ${theme.spacings.xxlarge};
+    max-width: 100%;
+    text-align: center;
+  `}
 `;

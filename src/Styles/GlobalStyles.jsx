@@ -12,18 +12,19 @@ export default createGlobalStyle`
 
     body {
       line-height: 1.5;
-      font-family: 'Rubik', sans-serif;
       font-weight: 400;
       background-color: #edece7;
     }
 
     html {
       scroll-behavior: smooth;
+      font-size: 62.5%;
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+
     }
 
     a {
-      font-family: 'Bebas Neue', cursive;
-      letter-spacing: 2px;
       text-decoration: none;
     }
 
@@ -31,9 +32,20 @@ export default createGlobalStyle`
       font-family: 'Bebas Neue', cursive;
     }
 
+    h1 {
+      font-size: ${theme.fonts.sizes.huge};
+    }
+
+    h2 {
+      font-size: ${theme.fonts.sizes.xlarge};
+    }
+
+    h3 {
+      font-size: ${theme.fonts.sizes.medium};
+    }
+
     p {
-      font-family: signika;
-      font-size: 15px;
+      font-size: calc(${theme.fonts.sizes.medium} - 0.3rem);
       font-family: 'Rubik', sans-serif;
     }
   `}

@@ -7,6 +7,7 @@ export const WrapperMenu = styled.ul`
     width: 100%;
     height: 100%;
     text-align: center;
+    font-family: ${theme.fonts.family.primary};
 
     @media ${theme.media.lteMedium} {
       flex-flow: column wrap;

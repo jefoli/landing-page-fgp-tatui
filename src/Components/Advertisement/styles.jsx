@@ -16,11 +16,11 @@ export const Folder = styled.div`
 
     & img {
       max-width: 500px;
-      border-radius: 20px;
+      border-radius: ${theme.fonts.sizes.medium};
     }
 
     & svg {
-      font-size: 25px;
+      font-size: ${theme.fonts.sizes.medium};
       color: ${theme.colors.yellowColor};
     }
 

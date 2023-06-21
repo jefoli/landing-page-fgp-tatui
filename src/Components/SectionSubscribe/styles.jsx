@@ -5,7 +5,7 @@ export const Default = styled.div`
     color: ${theme.colors.whiteColor};
     background-color: ${theme.colors.lowGrayColor};
     text-align: center;
-    padding: 20px;
+    padding: ${theme.spacings.sizes.medium};
   `}
 `;
 

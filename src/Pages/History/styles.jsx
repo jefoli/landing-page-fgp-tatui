@@ -2,23 +2,23 @@ import styled, { css } from 'styled-components';
 
 export const DefaultContainer = styled.div`
   ${({ theme }) => css`
-  color: ${theme.colors.whiteColor};
-  background-color: #3f3f3ff6;
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
+    color: ${theme.colors.whiteColor};
+    background-color: #3f3f3ff6;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: ${theme.spacings.small};
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.large};
+    align-items: center;
 
 .teste12 {
-    padding: 10px;
+    padding:  ${theme.spacings.xsmall};
     border-radius: 100px;
     background: #040404;
-    color: #ffffff;
-    font-size: 50px;
+    color: ${theme.colors.whiteColor};
+    font-size: ${theme.fonts.sizes.xhuge};
     position: relative;
     top: -50px;
 
@@ -40,19 +40,21 @@ export const DefaultContainer = styled.div`
 export const BoxContent = styled.div`
     ${({ theme }) => css`
       display: flex;
+      justify-content: center;
       grid-template-columns: repeat(auto-fit, minmax(minWidth, 1fr));
       width: 100%;
-      gap: 10px;
+      gap:  ${theme.spacings.xlarge};
       text-align: center;
-      padding: 10px;
-    flex-direction: row;
-    @media ${theme.media.lteMedium} {
-      display: grid;
-      grid-template-columns: 1fr;
-      align-items: center;
-      min-width: 100%;
-      justify-items: center;
-    }
+      padding:  ${theme.spacings.xxsmall};
+      flex-direction: row;
+
+      @media ${theme.media.lteMedium} {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        min-width: 100%;
+        justify-items: center;
+      }
   `}
 `;
 
