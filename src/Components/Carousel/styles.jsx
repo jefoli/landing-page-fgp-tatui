@@ -9,7 +9,7 @@ export const CarouselWrapper = styled.div`
   @media (max-width: 768px) {
     flex-direction: flex;
     align-items: center;
-    max-height:100%;
+    min-height: 100%;
   }
 
 `;
@@ -44,7 +44,7 @@ export const Button = styled.div`
 `;
 
 export const Slide = styled.div`
-  flex: 0 0 33.33%;
+  flex: 0 0 25%;
   transition: transform 0.3s ease-in-out;
   scroll-snap-type: x mandatory;
 `;

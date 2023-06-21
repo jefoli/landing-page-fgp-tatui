@@ -16,11 +16,11 @@ export const Wrapper = styled.div`
     margin-left: ${theme.fonts.sizes.xxsmall};
     width: 340px;
     padding: 30px 20px;
-    margin: 0 4px;
+    margin: 0 5px;
 
     @media (max-width: 768px) {
-      min-height: 500px;
-      width: 100%;
+      min-height: 100%;
+      max-width: 100%;
     }
   `}
 `;
