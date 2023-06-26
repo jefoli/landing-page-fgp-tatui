@@ -8,8 +8,8 @@ export const MenuLink = () => {
       <CustomLinks to={'/about'} name="Sobre a FPG" />
       <CustomLinks to={'/post-graduation'} name="pós-graduação" />
       <CustomLinks to={'/extensions-courses'} name="curso de extensão" />
-      <CustomLinks href="https://www.fgp-ead.com.br/" name="portal ead" />
-      <img src="../src/assets/logo1.png" alt="" width="110" />
+      <CustomLinks name="portal ead" to={'https://www.fgp-ead.com.br/'} />
+      <img src="../src/assets/images/logo_oficial.png" alt="" width="110" />
     </Styled.WrapperMenu>
   );
 };

@@ -37,8 +37,8 @@ export const Button = styled.div`
     color: ${theme.colors.yellowColor};
     border-radius: 100%;
     cursor: pointer;
-    font-size: ${theme.fonts.sizes.large};
-    padding: 0 ${theme.fonts.sizes.xlarge};
+    font-size: ${theme.fonts.sizes.xlarge};
+    padding: 0 ${theme.fonts.sizes.large};
 
   `}
 `;

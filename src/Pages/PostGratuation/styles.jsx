@@ -9,8 +9,9 @@ export const Wrapper = styled.div`
 
 export const Default = styled.div`
   ${({ theme }) => css`
-    margin-top: ${theme.spacings.xxlarge};
+    margin: ${theme.spacings.xxhuge} 0;
     max-width: 100%;
     text-align: center;
+    height: 100%;
   `}
 `;

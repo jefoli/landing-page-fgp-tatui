@@ -10,7 +10,6 @@ export const Wrapper = styled.div`
     align-items: center;
 
   > iframe{
-    padding: ${theme.fonts.sizes.medium};
     max-width: 100%;
   }
   `}
@@ -21,7 +20,7 @@ export const TextContent = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top:  ${theme.fonts.sizes.medium};
+    padding: ${theme.fonts.sizes.huge} ${theme.fonts.sizes.xsmall};
     text-align: center;
   `}
 `;

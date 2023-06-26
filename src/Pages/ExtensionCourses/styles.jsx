@@ -12,8 +12,8 @@ export const Wrapper = styled.div`
     justify-content: center;
 
     @media (max-width: 768px) {
-      gap:  ${theme.spacings.small};
-      padding:  ${theme.spacings.small};
+      gap: ${theme.spacings.small};
+      padding: ${theme.spacings.small};
     }
 
 

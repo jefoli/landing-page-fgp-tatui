@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
   `}
 `;
 
-export const TextContent = styled.div`
+export const TextContent = styled.a`
   ${({ theme }) => css`
     padding-top: ${theme.spacings.huge};
     display: flex;
@@ -36,6 +36,9 @@ export const TextContent = styled.div`
     & :hover {
       transform: scale(1.1);
       transition: all 200ms ease-in-out;
+      text-decoration: none;
+      color: ${theme.colors.yellowColor};
+      background-color: ${theme.colors.blackColor}
     }
   `}
 `;
@@ -44,5 +47,13 @@ export const showMoreBtn = styled.a`
   ${({ theme }) => css`
     font-family: ${theme.fonts.family.secondary};
     cursor: pointer;
+
+    > :hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+      text-decoration: none;
+      color: ${theme.colors.yellowColor};
+      background-color: ${theme.colors.blackColor}
+    }
   `}
 `;

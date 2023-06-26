@@ -3,10 +3,10 @@ import styled, { css } from 'styled-components';
 const menuVisible = () => css`
 //menu-mobile:
 ${({ theme }) => css`
-    display: block;
     visibility: visible;
     opacity: 1;
     background: ${theme.colors.backgroundMenuMobile};
+    display: flex;
   `}
 `;
 
@@ -15,14 +15,14 @@ export const Default = styled.div`
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
-    font-family: ${theme.fonts.family.primary};
+    z-index: 60;
 
     &.scroll {
       opacity: 0;
@@ -37,12 +37,9 @@ export const Default = styled.div`
 `;
 export const Container = styled.div`
   ${({ theme }) => css`
-    display: flex;
     background: ${theme.colors.backgroundMenuDesktop};
     width: 100%;
-    height: ${theme.fonts.sizes.huge};
     padding: 0 ${theme.fonts.sizes.xsmall};
-    border-bottom: 1px solid #ffff0020;
 
     @media ${theme.media.lteMedium} {
       display: block;
@@ -72,6 +69,8 @@ export const Wrapper = styled.div`
 
       ${visible && menuVisible(theme)}
       display: flex;
+
+
     }
   `}
 `;

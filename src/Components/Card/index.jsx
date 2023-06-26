@@ -14,7 +14,7 @@ export const Card = ({ title }) => {
           <p> Valor: R$ 98,00 (8x)</p>
         </div>
         <Styled.TextContent>
-          <SubscribeBtn color="#f5cb11" />
+          <SubscribeBtn />
         </Styled.TextContent>
         <Styled.showMoreBtn>
           saiba mais <FiChevronsRight />

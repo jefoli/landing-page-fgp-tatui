@@ -7,12 +7,13 @@ export const WrapperMenu = styled.ul`
     width: 100%;
     height: 100%;
     text-align: center;
+    padding-top: 2px;
     font-family: ${theme.fonts.family.primary};
 
     @media ${theme.media.lteMedium} {
-      flex-flow: column wrap;
-      align-content: center;
-      padding: ${theme.spacings.large} 0rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   `};
 `;

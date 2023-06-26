@@ -6,8 +6,8 @@ export const Button = styled.div`
     position: fixed;
     top: ${theme.spacings.small};
     right: ${theme.spacings.small};
-    width: ${theme.spacings.medium};
-    height: ${theme.spacings.medium};
+    width: ${theme.spacings.large};
+    height: ${theme.spacings.xlarge};
 
     border: none;
     display: none;

@@ -6,14 +6,14 @@ export const DefaultContainer = styled.div`
     background-color: #3f3f3ff6;
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    padding: ${theme.spacings.small};
+    padding: ${theme.spacings.xxhuge} ${theme.spacings.small};
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: ${theme.spacings.large};
     align-items: center;
 
-.teste12 {
+    .teste12 {
     padding:  ${theme.spacings.xsmall};
     border-radius: 100px;
     background: #040404;
