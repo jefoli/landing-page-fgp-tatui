@@ -11,7 +11,6 @@ export const CarouselWrapper = styled.div`
     align-items: center;
     min-height: 100%;
   }
-
 `;
 
 export const ButtonMenu = styled.div`
@@ -39,7 +38,6 @@ export const Button = styled.div`
     cursor: pointer;
     font-size: ${theme.fonts.sizes.xlarge};
     padding: 0 ${theme.fonts.sizes.large};
-
   `}
 `;
 

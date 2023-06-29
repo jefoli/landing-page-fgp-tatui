@@ -9,8 +9,6 @@ export const theme = {
     GrayMetalicColor: '#747171',
     blackColor: '#262626',
     backgroundEffectBlur: '#0e0d0d',
-    boxColor: '#cf9900',
-    backgroundGradientGray: 'linear-gradient(to left, #afafaf, #545454)',
     backgroundMenuMobile: '#3f3f3ff6',
     backgroundMenuDesktop: '#676464',
   },

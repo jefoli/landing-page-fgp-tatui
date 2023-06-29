@@ -4,7 +4,7 @@ import { Card } from '../Card';
 import { FaChevronCircleLeft, FaChevronCircleRight } from 'react-icons/fa';
 import * as Styled from './styles';
 
-export const Carousel = ({ cardTitles }) => {
+export const Carousel = ({ cardTitles, months, hours, price, to }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleNextSlide = () => {
@@ -21,13 +21,20 @@ export const Carousel = ({ cardTitles }) => {
 
   return (
     <Styled.CarouselWrapper>
-      {cardTitles.map((title, index) => (
+      {cardTitles.map((title, images, index) => (
         <Styled.Slide
           key={index}
           className={index === activeIndex ? 'active' : ''}
           style={{ transform: `translateX(-${activeIndex * 50}%)` }}
         >
-          <Card title={title} />
+          <Card
+            title={title.courseName}
+            months={months}
+            hours={hours}
+            price={price}
+            to={to}
+            //img={images.image}
+          />
         </Styled.Slide>
       ))}
 

@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     justify-content:center;
     width: 100%;
     font-size: ${theme.fonts.sizes.small};
-    height: 400px;
+    min-height: 610px;
     text-align: center;
     background-color: ${theme.colors.whiteColor};
     border-radius: ${theme.fonts.sizes.medium};
@@ -15,11 +15,19 @@ export const Wrapper = styled.div`
     background-color:  ${theme.colors.mediumGrayColor};
     margin-left: ${theme.fonts.sizes.xxsmall};
     width: 340px;
-    padding: 30px 20px;
     margin: 0 5px;
+    border: 1px solid  rgba(78, 75, 75, 0.4);
+
+    & img {
+      object-fit: scale-down;
+      height: 100%;
+      margin-bottom: ${theme.spacings.medium};
+      border-radius: ${theme.fonts.sizes.medium} ${theme.fonts.sizes.medium} 0 0 ;
+
+    }
 
     @media (max-width: 768px) {
-      min-height: 500px;
+      min-height: 620px;
       max-width: 100%;
     }
   `}
@@ -27,10 +35,10 @@ export const Wrapper = styled.div`
 
 export const TextContent = styled.a`
   ${({ theme }) => css`
-    padding-top: ${theme.spacings.huge};
+    padding: ${theme.spacings.medium};
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items:center;
 
     & :hover {
@@ -47,13 +55,20 @@ export const showMoreBtn = styled.a`
   ${({ theme }) => css`
     font-family: ${theme.fonts.family.secondary};
     cursor: pointer;
+    padding: ${theme.spacings.xxsmall};
 
-    > :hover {
+    &:hover {
       transform: scale(1.1);
       transition: all 200ms ease-in-out;
       text-decoration: none;
       color: ${theme.colors.yellowColor};
-      background-color: ${theme.colors.blackColor}
     }
+  `}
+`;
+
+export const InformationContainer = styled.div`
+  ${({ theme }) => css`
+    padding: ${theme.spacings.xsmall};
+    height: 180px;
   `}
 `;

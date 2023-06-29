@@ -14,7 +14,12 @@ export const ExtensionCourses = () => {
         </p>
       </Styled.Default>
       <Styled.Wrapper>
-        <Carousel cardTitles={ExtensionCardTitles} />
+        <Carousel
+          cardTitles={ExtensionCardTitles}
+          months={'3'}
+          hours={'180'}
+          to={'https://form.respondi.app/aFA7vTxX'}
+        />
       </Styled.Wrapper>
     </SectionContainer>
   );

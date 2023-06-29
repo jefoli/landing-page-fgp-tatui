@@ -15,7 +15,12 @@ export const PostGraduation = () => {
           programado às suas necessidades específicas
         </p>
         <Styled.Wrapper>
-          <Carousel cardTitles={postGradutationTitles} />
+          <Carousel
+            cardTitles={postGradutationTitles}
+            months={'6'}
+            hours={'420'}
+            price={'98,00'}
+          />
         </Styled.Wrapper>
       </Styled.Default>
     </SectionContainer>

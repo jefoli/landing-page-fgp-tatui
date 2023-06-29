@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { createGlobalStyle, css } from 'styled-components';
 
 export default createGlobalStyle`
