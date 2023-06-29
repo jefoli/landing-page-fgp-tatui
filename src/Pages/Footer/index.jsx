@@ -18,33 +18,43 @@ export const Footer = () => {
           <Styled.ContactBox>
             <p>
               <BiPhoneCall />
-              (15) 3284-4001
+              (15) 99843-4552
             </p>
             <p>
               <FaWhatsapp /> (15) 99825-3779
             </p>
             <p>
               <AiOutlineMail />
-              secretaria@fgp.com.br
+              secretaria@fgptatui.com.br
             </p>
           </Styled.ContactBox>
         </div>
       </Styled.Contact>
       <Styled.SocialMediaIconsContainer>
-        <FaInstagramSquare
+        <a
           href="https://www.instagram.com/fgp_tatui/"
           target="_blank"
           rel="noreferrer"
-        />
-        <FaFacebookSquare
+        >
+          <FaInstagramSquare />
+        </a>
+
+        <a
           href="https://www.facebook.com/fgptatui"
           target="_blank"
-        />
-        <FaLinkedin
+          rel="noreferrer"
+        >
+          <FaFacebookSquare />
+        </a>
+
+        <a
           href="https://www.instagram.com/fgp_tatui/"
           target="_blank"
           rel="noreferrer"
-        />
+        >
+          <FaLinkedin />
+        </a>
+
         <IoLogoYoutube
           href="https://www.instagram.com/fgp_tatui/"
           target="_blank"
