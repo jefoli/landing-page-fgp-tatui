@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:space-between;
     width: 100%;
     font-size: ${theme.fonts.sizes.small};
     min-height: 610px;
@@ -19,11 +19,11 @@ export const Wrapper = styled.div`
     border: 1px solid  rgba(78, 75, 75, 0.4);
 
     & img {
-      object-fit: scale-down;
-      height: 100%;
+      object-fit: cover;
+      height:300px;
       margin-bottom: ${theme.spacings.medium};
       border-radius: ${theme.fonts.sizes.medium} ${theme.fonts.sizes.medium} 0 0 ;
-
+      width: 100%;
     }
 
     @media (max-width: 768px) {
@@ -35,10 +35,9 @@ export const Wrapper = styled.div`
 
 export const TextContent = styled.a`
   ${({ theme }) => css`
-    padding: ${theme.spacings.medium};
+    padding: ${theme.spacings.xsmall};
     display: flex;
     flex-direction: column;
-
     align-items:center;
 
     & :hover {

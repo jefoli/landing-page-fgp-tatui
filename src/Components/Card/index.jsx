@@ -7,15 +7,12 @@ export const Card = ({ title, months, hours, price, to }) => {
   return (
     <>
       <Styled.Wrapper>
-        <img
-          src="https://mcusercontent.com/2dafcdc5d9de9a5136818d8ea/images/3be505a3-3cb4-ebca-1bfe-42c293fcad60.jpg"
-          alt=""
-        />
+        <img src={to} alt="" />
         <Styled.InformationContainer>
           <h3>{title} </h3>
           <p>Duração: {months} meses </p>
           <p> Carga horária: {hours} horas</p>
-          <p> Valor: R$ {price} (8x)</p>
+          <p> Valor: R$ {price},00 (8x)</p>
         </Styled.InformationContainer>
         <Styled.TextContent>
           <SubscribeBtn to={to} />

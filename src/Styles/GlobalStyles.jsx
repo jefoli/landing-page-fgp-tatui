@@ -12,7 +12,7 @@ export default createGlobalStyle`
     body {
       line-height: 1.5;
       font-weight: 400;
-      background-color: #edece7;
+      background-color: #eeecec;
     }
 
     html {

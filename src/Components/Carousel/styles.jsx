@@ -1,16 +1,23 @@
 import styled, { css } from 'styled-components';
 
 export const CarouselWrapper = styled.div`
+  ${({ theme }) => css`
+
   display: flex;
   overflow: hidden;
   height: 100%;
   position: relative;
 
+   & p {
+    font-size: calc(${theme.fonts.sizes.small} + 0.2rem );
+    font-weight: 300;
+   }
   @media (max-width: 768px) {
     flex-direction: flex;
     align-items: center;
     min-height: 100%;
   }
+  `}
 `;
 
 export const ButtonMenu = styled.div`

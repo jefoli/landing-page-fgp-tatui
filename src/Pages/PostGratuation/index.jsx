@@ -5,7 +5,7 @@ import { postGradutationTitles } from './courses-postgradutation';
 
 export const PostGraduation = () => {
   return (
-    <SectionContainer color="#edece7">
+    <SectionContainer>
       <Styled.Default>
         <h1>CURSOS DE PÓS-GRADUAÇÃO</h1>
         <p>
@@ -19,7 +19,7 @@ export const PostGraduation = () => {
             cardTitles={postGradutationTitles}
             months={'6'}
             hours={'420'}
-            price={'98,00'}
+            price={'98'}
           />
         </Styled.Wrapper>
       </Styled.Default>

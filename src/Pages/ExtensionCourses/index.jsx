@@ -5,7 +5,7 @@ import * as Styled from './styles';
 
 export const ExtensionCourses = () => {
   return (
-    <SectionContainer color="#eeecec">
+    <SectionContainer>
       <Styled.Default>
         <h1>CURSOS DE EXTENSÃO</h1>
         <p>
@@ -18,6 +18,7 @@ export const ExtensionCourses = () => {
           cardTitles={ExtensionCardTitles}
           months={'3'}
           hours={'180'}
+          price={'79'}
           to={'https://form.respondi.app/aFA7vTxX'}
         />
       </Styled.Wrapper>

@@ -6,41 +6,31 @@ export const Wrapper = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #414141;
+    background-color: ${theme.colors.blackColor};
 
     & img {
+      opacity: 0.9;
       min-width: 100%;
       min-height: 100%;
-      opacity: 0.3;
       position: relative;
     }
 
     @media (max-width: 768px) {
       max-width: 100%;
+      background-color: ${theme.colors.blackColor};
 
       & img {
-      max-width: 100%;
-      min-height:300px;
-      opacity: 0.3;
-      position: relative;
+        max-width: 100%;
+        min-height:300px;
+        opacity: 0.9;
+        position: relative;
+        object-fit: cover;
+      }
     }
-    }
-
   `}
 `;
 
 export const Container = styled.div`
-  ${({ theme }) => css`
-    margin-top: 20px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    color: #0c0c0c;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-  `}
+  height: 100%;
+  width: 100%;
 `;

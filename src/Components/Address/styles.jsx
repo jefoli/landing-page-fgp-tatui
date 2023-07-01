@@ -20,7 +20,7 @@ export const TextContent = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: ${theme.fonts.sizes.huge} ${theme.fonts.sizes.xsmall};
+    padding: ${theme.fonts.sizes.medium} ${theme.fonts.sizes.xsmall};
     text-align: center;
   `}
 `;

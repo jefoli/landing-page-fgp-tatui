@@ -1,6 +1,6 @@
 import { SectionContainer } from '../SectionContainer';
 import * as Styled from './styles';
-import ImgFolder from '../../assets/images/folder.jpg';
+import ImgFolder from '../../assets/images/folder.png';
 
 export const Intro = () => {
   return (
