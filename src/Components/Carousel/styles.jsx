@@ -49,8 +49,6 @@ export const Button = styled.div`
 
 export const Slide = styled.div`
   flex: 0 0 25%;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s;
   scroll-snap-type: x mandatory;
-  scroll-snap-type: y proximity;
-  scroll-snap-type: both mandatory;
 `;

@@ -3,7 +3,7 @@ import P from 'prop-types';
 import * as Styled from './styles';
 import { FiChevronsRight } from 'react-icons/fi';
 
-export const Card = ({ title, months, hours, price, to }) => {
+export const Card = ({ title, months, hours, price, to, subscribe }) => {
   return (
     <>
       <Styled.Wrapper>
@@ -15,7 +15,7 @@ export const Card = ({ title, months, hours, price, to }) => {
           <p> Valor: R$ {price},00 (8x)</p>
         </Styled.InformationContainer>
         <Styled.TextContent>
-          <SubscribeBtn to={to} />
+          <SubscribeBtn to={subscribe} />
         </Styled.TextContent>
         <Styled.showMoreBtn>
           saiba mais <FiChevronsRight />
@@ -31,4 +31,5 @@ Card.propTypes = {
   hours: P.string.isRequired,
   price: P.string.isRequired,
   to: P.any,
+  subscribe: P.any,
 };

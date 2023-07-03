@@ -19,7 +19,7 @@ export const ExtensionCourses = () => {
           months={'3'}
           hours={'180'}
           price={'79'}
-          to={'https://form.respondi.app/aFA7vTxX'}
+          subscribe={'https://form.respondi.app/aFA7vTxX'}
         />
       </Styled.Wrapper>
     </SectionContainer>
