@@ -14,21 +14,21 @@ export const Footer = () => {
     <Styled.Wrapper>
       <Styled.Contact>
         <h1>ATENDIMENTO</h1>
-        <div>
-          <Styled.ContactBox>
-            <p>
-              <BiPhoneCall />
-              (15) 99843-4552
-            </p>
-            <p>
-              <FaWhatsapp /> (15) 99825-3779
-            </p>
-            <p>
-              <AiOutlineMail />
-              secretaria@fgptatui.com.br
-            </p>
-          </Styled.ContactBox>
-        </div>
+
+        <Styled.ContactBox>
+          <Styled.contactContent>
+            <BiPhoneCall />
+            <p>(15) 99843-4552</p>
+          </Styled.contactContent>
+          <Styled.contactContent>
+            <FaWhatsapp />
+            <p>(15) 99825-3779</p>
+          </Styled.contactContent>
+          <Styled.contactContent>
+            <AiOutlineMail />
+            <p>secretaria@fgptatui.com.br</p>
+          </Styled.contactContent>
+        </Styled.ContactBox>
       </Styled.Contact>
       <Styled.SocialMediaIconsContainer>
         <a

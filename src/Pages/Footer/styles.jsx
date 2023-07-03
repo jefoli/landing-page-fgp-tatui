@@ -36,14 +36,21 @@ export const Contact = styled.div`
   `}
 `;
 
+export const contactContent = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    align-items: center;
+    padding: ${theme.spacings.small};
+
+    > p {
+      padding: ${theme.spacings.xxsmall};
+    }
+  `}
+`;
+
 export const ContactBox = styled.div`
   ${({ theme }) => css`
     display: flex;
-    flex-direction: row;
-
-    > p {
-      padding: ${theme.spacings.medium};
-    }
 
     @media ${theme.media.lteMedium} {
       max-width: 100%;
@@ -58,6 +65,7 @@ export const SocialMediaIconsContainer = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    text-align: center;
 
     @media ${theme.media.lteMedium} {
       max-width: 100%;
@@ -66,9 +74,9 @@ export const SocialMediaIconsContainer = styled.div`
   `}
 `;
 
-export const Creator = styled.div`
+export const Creator = styled.h6`
   ${({ theme }) => css`
-    padding: ${theme.spacings.large};
+    padding:${theme.spacings.small} ${theme.spacings.medium};
     font-size: ${theme.fonts.sizes.small};
     color: ${theme.colors.whiteColor};
   `}

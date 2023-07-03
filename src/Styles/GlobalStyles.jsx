@@ -2,6 +2,7 @@ import { createGlobalStyle, css } from 'styled-components';
 
 export default createGlobalStyle`
   ${({ theme }) => css`
+
     *{
       box-sizing: border-box;
       margin:0;
@@ -26,6 +27,7 @@ export default createGlobalStyle`
 
     h1, h2,  h3, h4, h5, h6 {
       font-family: 'Bebas Neue', cursive;
+      font-weight: 300;
     }
 
     h1 {
