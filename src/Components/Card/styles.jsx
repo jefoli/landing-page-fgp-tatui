@@ -53,16 +53,12 @@ export const TextContent = styled.a`
 export const showMoreBtn = styled.a`
   ${({ theme }) => css`
     font-family: ${theme.fonts.family.secondary};
-    cursor: pointer;
     padding: ${theme.spacings.xxsmall};
-
-    &:hover {
-      transform: scale(1.1);
-      transition: all 200ms ease-in-out;
-      text-decoration: none;
-      color: ${theme.colors.yellowColor};
-    }
   `}
+
+  & summary {
+    cursor: pointer;
+  }
 `;
 
 export const InformationContainer = styled.div`

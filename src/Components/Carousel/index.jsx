@@ -21,7 +21,7 @@ export const Carousel = ({ cardTitles, months, hours, price, subscribe }) => {
 
   return (
     <Styled.CarouselWrapper>
-      {cardTitles.map((title, images, index) => (
+      {cardTitles.map((title, index) => (
         <Styled.Slide
           key={index}
           className={index === activeIndex ? 'active' : ''}
@@ -34,6 +34,7 @@ export const Carousel = ({ cardTitles, months, hours, price, subscribe }) => {
             price={price}
             to={title.image}
             subscribe={subscribe}
+            summaryText={title.summaryText}
           />
         </Styled.Slide>
       ))}

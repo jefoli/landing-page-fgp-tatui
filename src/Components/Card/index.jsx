@@ -1,9 +1,16 @@
 import { SubscribeBtn } from '../Buttons/SubscribeBtn';
 import P from 'prop-types';
 import * as Styled from './styles';
-import { FiChevronsRight } from 'react-icons/fi';
 
-export const Card = ({ title, months, hours, price, to, subscribe }) => {
+export const Card = ({
+  title,
+  months,
+  hours,
+  price,
+  to,
+  subscribe,
+  summaryText,
+}) => {
   return (
     <>
       <Styled.Wrapper>
@@ -18,7 +25,10 @@ export const Card = ({ title, months, hours, price, to, subscribe }) => {
           <SubscribeBtn to={subscribe} />
         </Styled.TextContent>
         <Styled.showMoreBtn>
-          saiba mais <FiChevronsRight />
+          <details>
+            <summary>saiba mais</summary>
+            <p>{summaryText}</p>
+          </details>
         </Styled.showMoreBtn>
       </Styled.Wrapper>
     </>
@@ -32,4 +42,5 @@ Card.propTypes = {
   price: P.string.isRequired,
   to: P.any,
   subscribe: P.any,
+  summaryText: P.string.isRequired,
 };
