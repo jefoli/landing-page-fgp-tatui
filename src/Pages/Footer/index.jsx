@@ -18,15 +18,15 @@ export const Footer = () => {
         <Styled.ContactBox>
           <Styled.contactContent>
             <BiPhoneCall />
-            <p>(15) 99843-4552</p>
+            <p>(15) 99787-0379</p>
           </Styled.contactContent>
           <Styled.contactContent>
             <FaWhatsapp />
-            <p>(15) 99825-3779</p>
+            <p>(15) 99787-0379</p>
           </Styled.contactContent>
           <Styled.contactContent>
             <AiOutlineMail />
-            <p>secretaria@fgptatui.com.br</p>
+            <p>fgptatui@outlook.combr</p>
           </Styled.contactContent>
         </Styled.ContactBox>
       </Styled.Contact>

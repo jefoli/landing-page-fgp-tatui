@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 export const DefaultContainer = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.whiteColor};
-    background-color: #3f3f3ff6;
+    background-color: #888888f6;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     padding: ${theme.spacings.xxhuge} ${theme.spacings.small};
@@ -16,7 +16,7 @@ export const DefaultContainer = styled.div`
     .teste12 {
     padding:  ${theme.spacings.xsmall};
     border-radius: 100px;
-    background: #040404;
+    background: #f5cb11;
     color: ${theme.colors.whiteColor};
     font-size: ${theme.fonts.sizes.xhuge};
     position: relative;
