@@ -1,7 +1,7 @@
 import { CustomLinks } from '../CustomLink';
 import * as Styled from './styles';
 import { BsPersonCircle } from 'react-icons/bs';
-import imgLogo from '../../assets/images/logo_oficial.png';
+
 export const MenuLink = () => {
   return (
     <Styled.WrapperMenu>
@@ -14,7 +14,7 @@ export const MenuLink = () => {
         to={'https://www.fgp-ead.com.br/'}
         icon={<BsPersonCircle />}
       />
-      <img src={imgLogo} alt="logo-faculdadefpg" width="110" />
+      <img src="../src/assets/images/logo_oficial.png" alt="" width="110" />
     </Styled.WrapperMenu>
   );
 };
