@@ -11,7 +11,6 @@ export const Navbar = () => {
   return (
     <Styled.Default className={` ${isScrolled ? 'scroll' : ''}`}>
       <ButtonOpenCloseMenu visible={visible} onClick={() => setVisible(true)} />
-
       <Styled.Wrapper visible={visible} onClick={() => setVisible(false)}>
         <Styled.Container>
           <MenuLink />

@@ -13,8 +13,7 @@ export const Footer = () => {
   return (
     <Styled.Wrapper>
       <Styled.Contact>
-        <h1>ATENDIMENTO</h1>
-
+        <h2>ATENDIMENTO</h2>
         <Styled.ContactBox>
           <Styled.contactContent>
             <BiPhoneCall />
@@ -62,8 +61,7 @@ export const Footer = () => {
         />
       </Styled.SocialMediaIconsContainer>
       <Styled.Creator>
-        © 2023 - FGP Tatuí | Desenvolvido por Jeferson Oliveira - HIFT
-        Tecnologia
+        © 2023 - FGP Tatuí | Desenvolvido por HIFT Tecnologia
       </Styled.Creator>
     </Styled.Wrapper>
   );
