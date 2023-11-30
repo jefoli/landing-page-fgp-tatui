@@ -18,7 +18,8 @@ export const ExtensionCourses = () => {
           cardTitles={ExtensionCardTitles}
           months={'3'}
           hours={'180'}
-          price={'79'}
+          price={'95'}
+          installments={'6'}
           subscribe={'https://form.respondi.app/aFA7vTxX'}
         />
       </Styled.Wrapper>

@@ -10,6 +10,7 @@ export const Card = ({
   to,
   subscribe,
   summaryText,
+  installments
 }) => {
   return (
     <>
@@ -19,7 +20,7 @@ export const Card = ({
           <h3>{title} </h3>
           <p>Duração: {months} meses </p>
           <p> Carga horária: {hours} horas</p>
-          <p> Valor: R$ {price},00 (8x)</p>
+          <p> Mensalidade: R$ {price},00 ({installments}x)</p>
         </Styled.InformationContainer>
         <Styled.TextContent>
           <SubscribeBtn to={subscribe} />
@@ -43,4 +44,5 @@ Card.propTypes = {
   to: P.any,
   subscribe: P.any,
   summaryText: P.string.isRequired,
+  installments: P.string.isRequired
 };

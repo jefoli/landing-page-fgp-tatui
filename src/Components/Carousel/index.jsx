@@ -4,7 +4,7 @@ import { Card } from '../Card';
 import { FaChevronCircleLeft, FaChevronCircleRight } from 'react-icons/fa';
 import * as Styled from './styles';
 
-export const Carousel = ({ cardTitles, months, hours, price, subscribe }) => {
+export const Carousel = ({ cardTitles, months, hours, price, installments, subscribe }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleNextSlide = () => {
@@ -35,6 +35,7 @@ export const Carousel = ({ cardTitles, months, hours, price, subscribe }) => {
             to={title.image}
             subscribe={subscribe}
             summaryText={title.summaryText}
+            installments={installments}
           />
         </Styled.Slide>
       ))}

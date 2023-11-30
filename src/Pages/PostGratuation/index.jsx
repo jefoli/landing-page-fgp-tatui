@@ -20,6 +20,7 @@ export const PostGraduation = () => {
             months={'6'}
             hours={'420'}
             price={'98'}
+            installments={'8'}
             subscribe={'https://form.respondi.app/g73B58vn'}
           />
         </Styled.Wrapper>
