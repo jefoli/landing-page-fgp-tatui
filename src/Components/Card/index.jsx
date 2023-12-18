@@ -44,5 +44,5 @@ Card.propTypes = {
   to: P.any,
   subscribe: P.any,
   summaryText: P.string.isRequired,
-  installments: P.string.isRequired
+  installments: P.string.isRequired,
 };

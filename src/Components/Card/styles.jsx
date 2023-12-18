@@ -7,10 +7,10 @@ export const Wrapper = styled.div`
     justify-content:space-between;
     width: 100%;
     font-size: ${theme.fonts.sizes.small};
-    min-height: 610px;
+    min-height: 500px;
     text-align: center;
     background-color: ${theme.colors.whiteColor};
-    border-radius: ${theme.fonts.sizes.medium};
+    border-radius: ${theme.fonts.sizes.xsmall};
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
     background-color:  ${theme.colors.mediumGrayColor};
     margin-left: ${theme.fonts.sizes.xxsmall};
@@ -18,11 +18,11 @@ export const Wrapper = styled.div`
     margin: 0 5px;
     border: 1px solid  rgba(78, 75, 75, 0.4);
 
-    & img {
+    > img {
       object-fit: cover;
-      height:300px;
+      height:280px;
       margin-bottom: ${theme.spacings.medium};
-      border-radius: ${theme.fonts.sizes.medium} ${theme.fonts.sizes.medium} 0 0 ;
+      border-radius: ${theme.fonts.sizes.xsmall} ${theme.fonts.sizes.xsmall} 0 0;
       width: 100%;
     }
 

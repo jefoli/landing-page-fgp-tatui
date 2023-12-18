@@ -14,5 +14,5 @@ export const CustomLinks = ({ to, name, icon }) => {
 CustomLinks.propTypes = {
   to: P.string,
   name: P.string,
-  icon: P.any,
+  icon: P.element,
 };

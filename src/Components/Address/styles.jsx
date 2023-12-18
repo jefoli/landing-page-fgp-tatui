@@ -4,12 +4,12 @@ export const Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     justify-content: center;
-    padding: ${theme.fonts.sizes.medium};
+    padding: ${theme.fonts.sizes.small};
     flex-direction: column;
     text-align: center;
     align-items: center;
 
-  > iframe{
+  > iframe {
     max-width: 100%;
   }
   `}
