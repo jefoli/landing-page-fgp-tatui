@@ -31,7 +31,6 @@ export const Folder = styled.div`
       img {
         max-width: 300px;
       }
-
     }
   `}
 `;

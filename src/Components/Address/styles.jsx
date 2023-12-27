@@ -9,9 +9,9 @@ export const Wrapper = styled.div`
     text-align: center;
     align-items: center;
 
-  > iframe {
-    max-width: 100%;
-  }
+    > iframe {
+      max-width: 100%;
+    }
   `}
 `;
 
