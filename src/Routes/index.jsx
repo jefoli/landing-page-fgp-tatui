@@ -13,10 +13,9 @@ export default function RoutesSistem() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-
-        <Route path="about" element={<History />} />
-        <Route path="post-graduation" element={<PostGraduation />} />
-        <Route path="extensions-courses" element={<ExtensionCourses />} />
+        <Route path="/about" element={<History />} />
+        <Route path="/post-graduation" element={<PostGraduation />} />
+        <Route path="/extensions-courses" element={<ExtensionCourses />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

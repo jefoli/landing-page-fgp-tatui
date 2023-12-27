@@ -37,7 +37,6 @@ export const Footer = () => {
         >
           <FaInstagramSquare />
         </a>
-
         <a
           href="https://www.facebook.com/fgptatui"
           target="_blank"
@@ -45,7 +44,6 @@ export const Footer = () => {
         >
           <FaFacebookSquare />
         </a>
-
         <a
           href="https://www.instagram.com/fgp_tatui/"
           target="_blank"
@@ -53,7 +51,6 @@ export const Footer = () => {
         >
           <FaLinkedin />
         </a>
-
         <IoLogoYoutube
           href="https://www.instagram.com/fgp_tatui/"
           target="_blank"

@@ -12,22 +12,22 @@ export const History = () => {
           A FGP Polo Tatuí é uma referência no setor educacional. Desde 2012,
           estamos comprometidos em oferecer conhecimento e qualidade de ensino
           aos nossos estudantes.
-          <br/>
+          <br />
           Com o passar do tempo, expandimos nosso polo para outras regiões,
           conquistando a confiança de alunos de cidades como Iperó, Laranjal
           Paulista, Tietê e Boituva.
-
+          <br />
           Continuamos evoluindo e inovando, incorporando tecnologias emergentes,
           como inteligência artificial e aprendizado adaptativo, em nossa
           plataforma. Isso nos permitiu alcançar um número ainda maior de
           educadores e impactar a educação em nossa região.
-          <br/>
+          <br />
           Contamos com uma equipe de docentes composta por Mestres ou Doutores
           em suas respectivas áreas de atuação. Com toda essa bagagem de
           conhecimento, nossos docentes capacitam os alunos, indo além das
           simples aulas, proporcionando o uso de ferramentas essenciais para o
           ensino-aprendizagem.
-          <br/>
+          <br />
           Nosso compromisso em capacitar e apoiar os professores permanece
           inabalável, pois eles continuam a moldar o futuro da educação em todo
           o mundo.
