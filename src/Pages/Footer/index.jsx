@@ -7,7 +7,6 @@ import {
 } from 'react-icons/fa';
 import { IoLogoYoutube } from 'react-icons/io5';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BiPhoneCall } from 'react-icons/bi';
 
 export const Footer = () => {
   return (
@@ -15,10 +14,6 @@ export const Footer = () => {
       <Styled.Contact>
         <h2>ATENDIMENTO</h2>
         <Styled.ContactBox>
-          <Styled.contactContent>
-            <BiPhoneCall />
-            <p>(15) 99787-0379</p>
-          </Styled.contactContent>
           <Styled.contactContent>
             <FaWhatsapp />
             <p>(15) 99787-0379</p>
