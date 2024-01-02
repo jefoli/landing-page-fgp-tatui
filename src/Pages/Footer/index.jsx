@@ -20,7 +20,7 @@ export const Footer = () => {
           </Styled.contactContent>
           <Styled.contactContent>
             <AiOutlineMail />
-            <p>fgptatui@outlook.combr</p>
+            <p>fgptatui@outlook.com.br</p>
           </Styled.contactContent>
         </Styled.ContactBox>
       </Styled.Contact>
